@@ -2,7 +2,7 @@
 
 **XWare** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.
 
-Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and continuous learning â€” without inventing a second asset pipeline.
+Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and continuous learning ” without inventing a second asset pipeline.
 
 | Component | Path |
 |-----------|------|
