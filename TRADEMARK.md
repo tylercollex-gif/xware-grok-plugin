@@ -3,9 +3,7 @@
 **Goal:** XWare stays **free and available for everyone**, while the **name,
 agent identity, and official listing** stay with the creator.
 
-This is a community policy for the project. It is **not** legal advice.
-Registering marks with a trademark office (when you can) strengthens
-enforcement; this file states intent and fair use.
+
 
 ## Reserved marks
 
