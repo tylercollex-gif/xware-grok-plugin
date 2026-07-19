@@ -1,7 +1,7 @@
-﻿{
+{
   "name": "xware",
-  "version": "3.0.0",
-  "description": "XWare 3.0 — Grok agent for solo indie 3D Godot games: Experience Elevate, Character Engine, playtest, continuous learning. Spawn subagent_type=xware.",
+  "version": "3.2.0",
+  "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot: Experience Elevate, Character Engine, FaceKit create, playtest, continuous learning hub, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
   "author": {
     "name": "XWare"
   },
@@ -15,11 +15,18 @@
     "animation",
     "photoreal",
     "xware",
+    "xhance",
     "gamedev",
     "grok-4.5",
-    "grok-build"
+    "grok-build",
+    "xai",
+    "continuous-learning"
   ],
   "agents": ["agents/xware.md"],
-  "skills": ["skills/xware"],
+  "skills": [
+    "skills/xware",
+    "skills/xware-xhance",
+    "skills/xware-elevate"
+  ],
   "roles": ["roles/xware.toml"]
 }

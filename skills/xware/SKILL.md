@@ -1,26 +1,29 @@
 ---
 name: xware
 description: >
-  XWare — built-in-class Grok 4.5 agent for solo indie 3D Godot game creation.
-  ALWAYS use for Godot 3D games, graphics, animation, materials, physics, raise,
+  XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot. ALWAYS use for
+  Godot 3D games, graphics, animation, materials, physics, raise, Xhance,
   photoreal/experience elevate, Character Engine, densify, Imagine PBR, quality
-  gates, genre DNA, design intent, Mad Max, "make a game", "indie game".
-  Prefer spawn_subagent(subagent_type="xware"). More users + opt-in feedback =
-  more accurate elevates. Install: tools/xware/install_grok_builtin.ps1
+  gates, genre DNA, design intent, Mad Max, continuous learning, network hub,
+  "make a game", "indie game". Prefer spawn_subagent(subagent_type="xware").
+  Pair with game-asset-core for Imagine look. Marketplace: tylercollex-gif/xware-grok-plugin.
 metadata:
-  short-description: "XWare built-in agent — solo indie 3D Godot OS"
+  short-description: "XWare Xhance 3.2 — full elevate + xAI + hub"
 ---
 
-# XWare — Built-in Game Agent for Grok 4.5
+# XWare Xhance 3.2 — Built-in Game Agent for Grok 4.5
 
-XWare is the **built-in-class** agent that makes solo indie **3D Godot** games efficient: graphics, animation, materials, physics, whole-game Experience Elevate. **Do not invent a second pipeline.**
+XWare is the **built-in-class** agent for solo indie **3D Godot** games: graphics, animation, materials, physics, whole-game Experience Elevate, and **continuous engine improvement**. **Do not invent a second pipeline.**
+
+**Xhance** = full stack: spawn xware + elevate + hub learning + Imagine (`game-asset-core`) + optional `XAI_API_KEY` textures.
 
 | Install surface | Path |
 |-----------------|------|
 | Agent | `~/.grok/agents/xware.md` (+ bundled rehydrate) |
-| Plugin | `Documents/Xware/grok-plugin` |
+| Plugin | `Documents/Xware/grok-plugin` · GitHub `tylercollex-gif/xware-grok-plugin` |
 | Skill | this file |
-| Rehydrate after CLI update | `tools/xware/install_grok_builtin.ps1` |
+| Learning hub | `~/.grok/xware_network/` |
+| Rehydrate after CLI update | Helix `tools/xware/install_grok_builtin.ps1` |
 
 ## Prefer SPAWN (own context = efficiency)
 
@@ -34,8 +37,8 @@ spawn_subagent(
   prompt="""
 Project: <absolute Godot path>
 Profile: <or auto from xware_config>
-Task: solo_bootstrap | experience_elevate | character_engine | quality_gate
-Constraints: legal only; residual honest; return report paths + pass/fail.
+Task: solo_bootstrap | experience_elevate | character_engine | quality_gate | continuous_learn
+Constraints: legal only; residual honest; Engine Improve Law (hub pack after elevate); return report paths + pass/fail.
 """
 )
 ```
@@ -45,6 +48,7 @@ Constraints: legal only; residual honest; return report paths + pass/fail.
 | Make / raise / elevate a Godot 3D game | **spawn xware** |
 | Solo indie bootstrap | Task: `solo_bootstrap` |
 | Character only | Task: `character_engine` |
+| Improve engine / learn from games | Task: `continuous_learn` |
 | One-line FAQ | Answer in-process |
 
 ## Canonical CLI
@@ -52,41 +56,65 @@ Constraints: legal only; residual honest; return report paths + pass/fail.
 ```powershell
 powershell -File tools/xware/install_to_project.ps1 -Target <game> -Profile <profile>
 py tools/xware/ai/design_intent.py --project .
-py tools/xware/ai/experience_elevate.py --project . --from-intent
+py tools/xware/ai/experience_elevate.py --project . --from-intent --playtest-improve
+# Always compound the engine (local hub; privacy-safe aggregates):
+py tools/xware/ai/continuous_learn.py --project .
 py tools/xware/ai/quality_gate.py --profile <profile>
 ```
 
-## Network effect (opt-in)
+## Network effect (local hub ON by default)
+
+**Race law:** Every elevate should make the **next** elevate smarter.
+
+| Ring | Behavior |
+|------|----------|
+| **1 Same machine** | Pack → `~/.grok/xware_network/` → sibling games densify better |
+| **2 Multi-game docs** | Auto-discover Helix, Soccer3D, Vendel, Idle, Blastar, … |
+| **3 Cloud** | Opt-in only: `share_feedback_cloud=true` + `cloud_url=` |
 
 ```powershell
-py tools/xware/ai/feedback_export.py --project . --opt-in   # default OFF
-py tools/xware/ai/feedback_network_merge.py --project .
+py tools/xware/ai/feedback_network_sync.py --project .
+py tools/xware/ai/auto_weak_elevate.py --project .          # class-routed
+py tools/xware/ai/six_stage_progress.py --project .
 ```
 
-Anonymized aggregates only → densify priority hints. See `FEEDBACK_NETWORK.md`.
+Config (`addons/xware/xware_config.cfg`):
+
+```ini
+[network]
+share_feedback_local=true
+auto_sync_on_elevate=true
+continuous_learn_on_elevate=true
+weak_class_routing=true
+share_feedback_cloud=false
+```
+
+Anonymized aggregates only → densify priority + class routing. See `FEEDBACK_NETWORK.md` / `CONTINUOUS_LEARNING.md`.
 
 ## Laws
 
-Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies. Legal only. Editor safe.
+Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies (correct class). Legal only. Editor safe. **Engine Improve Law** after every multi-step raise.
 
 **Video-first residual (3D):** Prefer **screen recordings** over screenshots.
 
 ```powershell
-py tools/xware/meshgen/proof_record_orbit.py --project .     # turntable recording
-# or drop play clips in addons/xware/ai/inbox_recordings/
+py tools/xware/meshgen/proof_record_orbit.py --project .
 py tools/xware/ai/screen_record_analyze.py --project .
 ```
 
-**Playtest improve loop (agent &gt; human for iteration):**
+**Playtest improve loop:**
 
 ```powershell
-# Requires Godot 4: set GODOT=C:\path\to\Godot.exe if needed
+$env:GODOT = "C:\path\to\Godot.exe"   # if needed
 py tools/xware/ai/playtest_run.py --project . --seconds 12 --mode orbit
 py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
-# or one-shot with elevate:
-py tools/xware/ai/experience_elevate.py --project . --from-intent --playtest-improve
 ```
 
 ## Source of truth
 
-HelixProtocol `addons/xware` + `tools/xware`. **Version 3.0.0**
+HelixProtocol `addons/xware` + `tools/xware`. **Version 3.2.0 (Xhance)**  
+Marketplace plugin is agent/skill surface; Godot runtime installs via `install_to_project.ps1`.
+
+## Publish cadence (maintainers)
+
+After engine wins: bump plugin → push `xware-grok-plugin` → update marketplace pin SHA (PR #110 or follow-up).
