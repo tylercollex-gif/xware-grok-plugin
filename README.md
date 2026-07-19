@@ -1,7 +1,7 @@
 # Xware — Grok Build Plugin (Xware 3.2)
 
-**XWare** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
-**Xwanre 3.2** = full xAI power: elevate + local continuous learning + Imagine look skills + optional API textures.  
+**Xware** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
+**Xware 3.2** = full xAI power: elevate + local continuous learning + Imagine look skills + optional API textures.  
 
 
 ```powershell
