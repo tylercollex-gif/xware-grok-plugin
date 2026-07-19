@@ -1,7 +1,7 @@
-# xAI Plugin Marketplace — PR materials for XWare
+﻿# xAI Plugin Marketplace â€” PR materials for XWare
 
 **Plugin repo:** https://github.com/tylercollex-gif/xware-grok-plugin  
-**Pinned SHA (main):** `435112fb632020ee256d46dd61644f71873a56c1`  
+**Pinned SHA (main):** `f35ec3b787ef712ed8808e0014dad4cc4b6c1589`  
 **Catalog:** https://github.com/xai-org/plugin-marketplace  
 
 ---
@@ -15,12 +15,12 @@ Add this object to the `plugins` array in
 ```json
 {
   "name": "xware",
-  "description": "XWare 3.0 — Grok agent for solo indie 3D Godot game creation. Experience Elevate, Character Engine, playtest improve loops, continuous learning. Spawn subagent_type=xware.",
+  "description": "XWare 3.0 â€” Grok agent for solo indie 3D Godot game creation. Experience Elevate, Character Engine, playtest improve loops, continuous learning. Spawn subagent_type=xware.",
   "category": "development",
   "source": {
     "source": "url",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-    "sha": "435112fb632020ee256d46dd61644f71873a56c1"
+    "sha": "f35ec3b787ef712ed8808e0014dad4cc4b6c1589"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
   "keywords": [
@@ -67,7 +67,7 @@ XWare is a Grok agent + skill pack for **solo indie 3D Godot** game creation:
 | Field | Value |
 |-------|--------|
 | Repo | https://github.com/tylercollex-gif/xware-grok-plugin |
-| Pin SHA | `435112fb632020ee256d46dd61644f71873a56c1` |
+| Pin SHA | `f35ec3b787ef712ed8808e0014dad4cc4b6c1589` |
 | Category | `development` |
 
 ## Install (after merge)
@@ -103,7 +103,7 @@ Confirm: `/config-agents` shows **xware**.
 ### 1. Fork
 
 1. Open https://github.com/xai-org/plugin-marketplace  
-2. Click **Fork** → your account (`tylercollex-gif`)  
+2. Click **Fork** â†’ your account (`tylercollex-gif`)  
 3. Clone your fork:
 
 ```powershell
@@ -154,7 +154,7 @@ Users can install from the official marketplace. When you update the plugin late
 ```powershell
 cd C:\Users\winge\Documents\Xware\grok-plugin
 git rev-parse HEAD
-# Must equal: 435112fb632020ee256d46dd61644f71873a56c1
+# Must equal: f35ec3b787ef712ed8808e0014dad4cc4b6c1589
 # If you pushed new commits, update the SHA in marketplace.json
 ```
 
