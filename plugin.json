@@ -1,11 +1,13 @@
 {
   "name": "xware",
-  "version": "3.2.1",
-  "description": "XWare Xhance 3.2 — solo indie 3D Godot: Experience Elevate, Character Engine, playtest, local continuous learning, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
+  "version": "3.2.2",
+  "description": "XWare Xhance — official solo indie 3D Godot agent (tylercollex-gif). Experience Elevate, Character Engine, playtest, local continuous learning. Free MIT use; XWare name reserved. Spawn subagent_type=xware.",
   "author": {
-    "name": "XWare"
+    "name": "tylercollex-gif",
+    "url": "https://github.com/tylercollex-gif/xware-grok-plugin"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
+  "license": "MIT",
   "keywords": [
     "godot",
     "game",

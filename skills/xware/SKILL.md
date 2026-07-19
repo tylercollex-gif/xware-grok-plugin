@@ -8,12 +8,14 @@ description: >
   "make a game", "indie game". Prefer spawn_subagent(subagent_type="xware").
   Pair with game-asset-core for Imagine look. Marketplace: tylercollex-gif/xware-grok-plugin.
 metadata:
-  short-description: "XWare Xhance 3.2 — full elevate + xAI + hub"
+  short-description: "Official XWare Xhance — free MIT, creator tylercollex-gif"
 ---
 
-# XWare Xhance 3.2 — Built-in Game Agent for Grok 4.5
+# XWare Xhance — Official Built-in Game Agent for Grok 4.5
 
-XWare is the **built-in-class** agent for solo indie **3D Godot** games: graphics, animation, materials, physics, whole-game Experience Elevate, and **continuous engine improvement**. **Do not invent a second pipeline.**
+XWare is the **official** built-in-class agent (creator **tylercollex-gif**) for solo indie **3D Godot** games: graphics, animation, materials, physics, whole-game Experience Elevate, and **continuous engine improvement**. **Do not invent a second pipeline** or a spoof agent under the XWare name.
+
+**Free for everyone** (MIT). **Name & agent identity reserved** — see `TRADEMARK.md`, `AUTHORSHIP.md`, `NOTICE`.
 
 **Xhance** = full stack: spawn xware + elevate + hub learning + Imagine (`game-asset-core`) + optional `XAI_API_KEY` textures.
 
@@ -113,8 +115,17 @@ py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
 
 ## Source of truth
 
-HelixProtocol `addons/xware` + `tools/xware`. **Version 3.2.1 (Xhance)**  
-Marketplace plugin is agent/skill surface; Godot runtime installs via `install_to_project.ps1`.
+HelixProtocol `addons/xware` + `tools/xware`. **Version 3.2.2 (Xhance)**  
+Official marketplace plugin: **tylercollex-gif/xware-grok-plugin** (agent/skill surface).  
+Godot runtime installs via `install_to_project.ps1`.
+
+## Authorship
+
+| | |
+|--|--|
+| Creator | tylercollex-gif |
+| License | MIT — free use with attribution |
+| Marks | XWare / Xhance reserved (`TRADEMARK.md`) |
 
 ## Publish cadence (maintainers)
 

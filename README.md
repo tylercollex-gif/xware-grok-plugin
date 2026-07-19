@@ -1,8 +1,13 @@
-# Xware — Grok Build Plugin (Xware 3.2)
+# XWare — Official Grok Build Plugin (Xhance)
 
-**Xware** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
-**Xware 3.2** = full xAI power: elevate + local continuous learning + Imagine look skills + optional API textures.  
+**Creator:** [tylercollex-gif](https://github.com/tylercollex-gif) · **License:** MIT (free for everyone) · **Marks:** [TRADEMARK.md](TRADEMARK.md)
 
+**XWare** is the **official** Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
+**Xhance** = elevate + local continuous learning + Imagine look skills + optional API textures.
+
+Free to use, fork, and build games. The **XWare name and agent identity** stay with the creator — remakes must rebrand honestly and keep attribution ([AUTHORSHIP.md](AUTHORSHIP.md), [NOTICE](NOTICE)).
+
+User privacy: [PRIVACY.md](PRIVACY.md). Marketing stays look/gameplay only.
 
 ```powershell
 # Full power rehydrate (run after Grok CLI updates)
@@ -20,7 +25,8 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.2.1 (Xhance)** |
+| Manifest | [`plugin.json`](plugin.json) — **3.2.2** |
+| Authorship | [AUTHORSHIP.md](AUTHORSHIP.md) · [NOTICE](NOTICE) · [TRADEMARK.md](TRADEMARK.md) |
 | Skills | `/xware` · `/xware-xhance` · `/xware-elevate` |
 
 ## Install
@@ -64,7 +70,6 @@ The marketplace plugin is the **agent**. Meshgen / elevate scripts install into 
 
 ```powershell
 powershell -File tools\xware\install_to_project.ps1 -Target <YourGame> -Profile open_world_rpg_slice
-# Stamps [network] share_feedback_local=true so elevates feed ~/.grok/xware_network/
 ```
 
 ```powershell
@@ -75,22 +80,16 @@ py tools/xware/ai/continuous_learn.py --project .
 py tools/xware/ai/quality_gate.py --project . --profile <profile>
 ```
 
-## Continuous learning (race to stay ahead)
+## Continuous learning
 
-| Ring | What |
-|------|------|
-| Same machine | Packs in `~/.grok/xware_network/` improve densify order across games |
-| Multi-game | Sibling discovery under Documents |
-| Cloud | Opt-in only (`share_feedback_cloud` + `cloud_url`) |
-
-Never shares meshes, paths, or textures — only anonymized role/residual aggregates.
+Local hub by default (`~/.grok/xware_network/`). Aggregates only. Cloud off unless you opt in.
 
 ## Maintainer: bump marketplace pin after engine wins
 
-1. Improve Helix SOT / copy agent+skill here  
+1. Improve SOT / copy agent+skill here  
 2. Bump `plugin.json` version  
 3. `git push` this repo  
-4. Update [plugin-marketplace PR #110](https://github.com/xai-org/plugin-marketplace/pull/110) (or follow-up) **source.sha** to the new full 40-char commit  
+4. Update [plugin-marketplace PR #110](https://github.com/xai-org/plugin-marketplace/pull/110) **source.sha**
 
 See [MARKETPLACE_PR.md](MARKETPLACE_PR.md).
 

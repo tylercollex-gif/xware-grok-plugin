@@ -1,0 +1,23 @@
+XWare (Grok Build plugin)
+Copyright (c) 2026 tylercollex-gif
+
+Official source (canonical agent + skills):
+  https://github.com/tylercollex-gif/xware-grok-plugin
+
+Author / steward:
+  GitHub: tylercollex-gif
+
+License:
+  MIT (see LICENSE) — free for everyone to use, study, modify, and share
+  with attribution.
+
+Trademarks:
+  "XWare", "Xhance", and the official agent identity are reserved.
+  See TRADEMARK.md. Forks and remakes must not present themselves as the
+  official XWare agent or marketplace listing.
+
+Attribution (required by MIT):
+  Retain the copyright notice and license text in distributions and
+  substantial portions. When you ship a modified agent/skill pack derived
+  from this work, keep NOTICE and do not replace the official identity
+  with a false claim of original authorship.
