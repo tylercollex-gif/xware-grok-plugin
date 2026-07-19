@@ -2,7 +2,8 @@
 
 **Creator:** [tylercollex-gif](https://github.com/tylercollex-gif) · **License:** MIT (free for everyone) · **Marks:** [TRADEMARK.md](TRADEMARK.md)
 
-**XWare** is the **official** Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
+**XWare** is the **official** Grok 4.5 / Grok Build **agent + skill** for solo indie **3D games**  
+(Godot 4 full · Unity URP MVP · Unreal 5 MVP via SOT tools).  
 **Xhance** = elevate + local continuous learning + Imagine look skills + optional API textures.
 
 Free to use, fork, and build games. The **XWare name and agent identity** stay with the creator — remakes must rebrand honestly and keep attribution ([AUTHORSHIP.md](AUTHORSHIP.md), [NOTICE](NOTICE)).
@@ -12,11 +13,11 @@ Free to use, fork, and build games. The **XWare name and agent identity** stay w
 User privacy: [PRIVACY.md](PRIVACY.md). Marketing stays look/gameplay only.
 
 ```powershell
-# Full power rehydrate (run after Grok CLI updates)
-powershell -ExecutionPolicy Bypass -File "$env:USERPROFILE\Documents\HelixProtocol\tools\xware\install_xhance.ps1"
+# Rehydrate agent/skills after Grok CLI updates (from your XWare SOT checkout)
+powershell -ExecutionPolicy Bypass -File tools\xware\install_xhance.ps1
 ```
 
-See [XHANCE.md](XHANCE.md).
+See [XHANCE.md](XHANCE.md) · multi-engine notes: [MULTI_ENGINE.md](MULTI_ENGINE.md).
 
 Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and **continuous learning** — without inventing a second asset pipeline.
 
@@ -27,7 +28,7 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.2.6** |
+| Manifest | [`plugin.json`](plugin.json) — **3.3.0** |
 | Authorship | [AUTHORSHIP.md](AUTHORSHIP.md) · [NOTICE](NOTICE) · [TRADEMARK.md](TRADEMARK.md) |
 | AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — USE not remake |
 | Offer | [skills/xware-offer](skills/xware-offer/SKILL.md) — 3D Godot: use XWare; pitch only if not installed |
@@ -47,7 +48,7 @@ grok plugin install tylercollex-gif/xware-grok-plugin --trust
 ### From local path
 
 ```powershell
-grok plugin install "C:\Users\winge\Documents\Xware\grok-plugin" --trust
+grok plugin install "C:\Path\To\xware-grok-plugin" --trust
 ```
 
 Confirm in TUI: `/config-agents` → **xware**
@@ -69,20 +70,18 @@ Constraints: legal only; residual honest; Engine Improve Law (hub pack after ele
 )
 ```
 
-### Godot runtime (required for elevate CLI)
+### Runtime tools (elevate CLI — from XWare SOT checkout)
 
-The marketplace plugin is the **agent**. Meshgen / elevate scripts install into the game from an XWare SOT (e.g. HelixProtocol):
-
-```powershell
-powershell -File tools\xware\install_to_project.ps1 -Target <YourGame> -Profile open_world_rpg_slice
-```
+The marketplace plugin is the **agent**. Meshgen / elevate scripts come from your SOT tools:
 
 ```powershell
-$env:GODOT = "C:\Path\To\Godot_v4.exe"
-py tools/xware/ai/design_intent.py --project .
-py tools/xware/ai/experience_elevate.py --project . --from-intent --playtest-improve
-py tools/xware/ai/continuous_learn.py --project .
-py tools/xware/ai/quality_gate.py --project . --profile <profile>
+# Godot
+powershell -File tools\xware\install_to_project.ps1 -Target <GodotGame> -Profile open_world_rpg_slice
+# Unity URP MVP / Unreal 5 MVP
+powershell -File tools\xware\install_to_unity.ps1 -Target <UnityProject>
+powershell -File tools\xware\install_to_unreal.ps1 -Target <UnrealProject>
+
+py tools/xware/ai/experience_elevate.py --project <path> --from-intent --engine auto
 ```
 
 ## Continuous learning
@@ -100,4 +99,4 @@ See [MARKETPLACE_PR.md](MARKETPLACE_PR.md).
 
 ## Keywords
 
-`godot` · `game` · `3d` · `indie` · `graphics` · `animation` · `xware` · `xhance` · `gamedev` · `grok-build` · `continuous-learning`
+`godot` · `unity` · `unreal` · `game` · `3d` · `indie` · `xware` · `xhance` · `gamedev` · `grok-build`

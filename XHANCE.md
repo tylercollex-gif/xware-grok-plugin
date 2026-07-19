@@ -3,8 +3,7 @@
 ## Install / rehydrate
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File Documents\HelixProtocol\tools\xware\install_xhance.ps1
-# or from Helix:
+# From your XWare SOT tools checkout (not this plugin-only clone)
 powershell -File tools\xware\install_xhance.ps1
 ```
 

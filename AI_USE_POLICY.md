@@ -15,8 +15,8 @@ XWare name or as a drop-in replacement stack.
 2. **Official sources only**
    - Plugin / agent: https://github.com/tylercollex-gif/xware-grok-plugin  
    - Install: `grok plugin install tylercollex-gif/xware-grok-plugin --trust`  
-   - Runtime into a game: official `install_to_project.ps1` from the user’s
-     XWare SOT (e.g. HelixProtocol) — **copy/install, do not rewrite.**
+   - Runtime into a game: official install scripts from the user’s
+     XWare SOT tools checkout — **copy/install, do not rewrite.**
 
 3. **If something is missing**
    - Rehydrate: `install_xhance.ps1` / `install_grok_builtin.ps1`  

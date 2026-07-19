@@ -1,4 +1,4 @@
-﻿# Publish XWare Grok plugin to GitHub
+# Publish XWare Grok plugin to GitHub
 
 Local package is ready. Complete these steps on your machine.
 
@@ -11,19 +11,12 @@ Local package is ready. Complete these steps on your machine.
 5. Create repository  
 6. Copy the URL, e.g. `https://github.com/tylercollex-gif/xware-grok-plugin.git`
 
-## 2. Push (PowerShell or Git Bash)
+## 2. Push
 
 ```powershell
-cd "C:\Users\winge\Documents\Xware\grok-plugin"
-
-# If not already committed (safe to re-run):
+cd path\to\xware-grok-plugin
 git status
-
-# Point at YOUR repo (replace YOURUSER)
-git remote remove origin 2>$null
 git remote add origin https://github.com/tylercollex-gif/xware-grok-plugin.git
-git remote -v
-
 git push -u origin main
 ```
 
@@ -34,14 +27,9 @@ git push -u origin main
 
 ## 3. After first push
 
-1. Edit `plugin.json` â†’ set `"homepage"` to your real GitHub URL  
-2. Commit: `git add plugin.json README.md ; git commit -m "Set homepage URL" ; git push`  
-3. On the repo page: **Settings â†’ General â†’ Topics** â†’ add `grok`, `godot`, `gamedev`, `xai`, `plugin`  
-4. Note commit SHA for marketplace PR:
-
-```powershell
-git rev-parse HEAD
-```
+1. Set `plugin.json` homepage to the real GitHub URL  
+2. Topics: `grok`, `godot`, `gamedev`, `xai`, `plugin`  
+3. Note commit SHA for marketplace PR: `git rev-parse HEAD`
 
 ## 4. Install from GitHub
 
@@ -52,14 +40,8 @@ grok plugin install tylercollex-gif/xware-grok-plugin --trust
 ## 5. Submit to xAI marketplace
 
 1. Fork https://github.com/xai-org/plugin-marketplace  
-2. Add entry in `.grok-plugin/marketplace.json` with your `url` + full `sha`  
-3. Run:
-
-```bash
-python3 scripts/generate-plugin-index.py
-python3 scripts/validate-catalog.py
-```
-
+2. Add entry in `.grok-plugin/marketplace.json` with `url` + full `sha`  
+3. `python3 scripts/generate-plugin-index.py` && `python3 scripts/validate-catalog.py`  
 4. Open a Pull Request  
 
-Details: https://github.com/xai-org/plugin-marketplace#add-or-update-a-plugin
+**Do not** commit API keys, machine-local absolute paths, or operator security internals.
