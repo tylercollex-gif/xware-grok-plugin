@@ -31,7 +31,7 @@ Local multi-game hub learning still works on each machine without a pin bump; **
   "source": {
     "source": "url",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-    "sha": "REPLACE_WITH_FULL_40_CHAR_SHA"
+    "sha": "ced35a07adee865808aab9bb025a089cceeb6b94"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
   "keywords": [
