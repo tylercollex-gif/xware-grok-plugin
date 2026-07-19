@@ -5,25 +5,25 @@
 | | |
 |--|--|
 | **Creator / copyright holder** | tylercollex-gif |
-| **Year** | 2026â€“ |
+| **Year** | 2026“ |
 | **Official plugin** | https://github.com/tylercollex-gif/xware-grok-plugin |
-| **License** | MIT â€” use freely; keep attribution |
-| **Marks** | XWare, Xhance â€” see TRADEMARK.md |
+| **License** | MIT” use freely; keep attribution |
+| **Marks** | XWare, Xhance ” see TRADEMARK.md |
 
-## What â€œfreeâ€ means
+## What freeâ means
 
 Anyone may use XWare to build games, install the agent, and learn from the
-code **without paying**. That is intentional.
+code, and publish solo indie games **without paying**. That is intentional.
 
-## What â€œprotect my workâ€ means
+## What protect my work means
 
-1. **Copyright** â€” substantial code, agents, and skills remain Â© tylercollex-gif;
+1. **Copyright** ” substantial code, agents, and skills remain  tylercollex-gif;
    MIT requires keeping the notice.
-2. **Trademark / identity** â€” only the official package is â€œXWareâ€; remakes
+2. **Trademark / identity** ” only the official package is XWare; remakes
    must rebrand honestly (TRADEMARK.md).
-3. **Provenance** â€” marketplace and agent cards point at the official repo;
+3. **Provenance** ” marketplace and agent cards point at the official repo;
    forks must not spoof that listing.
-4. **No false origin** â€” do not strip NOTICE and claim the agent as a new
+4. **No false origin** ” do not strip NOTICE and claim the agent as a new
    original product.
 
 ## Contributors
