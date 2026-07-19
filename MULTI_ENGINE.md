@@ -1,30 +1,19 @@
-# Multi-engine (product)
+# Engines (advanced / tools checkout only)
 
-XWare elevate tools support:
+## Marketplace product = Godot 4 3D
 
-| Engine | Status |
-|--------|--------|
-| **Godot 4** | Full Experience Elevate |
-| **Unity (URP)** | MVP — densify meshes + PBR stage; Editor import menus |
-| **Unreal Engine 5** | MVP — stage GLB/PBR under Content/XWare; import in editor |
+**Grok Build Plugin Marketplace** lists XWare as a **specialized Godot 3D** agent/skill.  
+That is intentional and correct.
 
-## Agent
+## Optional tools (not marketplace surface)
 
-```
-spawn_subagent(subagent_type="xware", …)
-# Prompt may include: Engine: auto | godot | unity | unreal
-```
+A full XWare **tools** checkout may include experimental Unity/Unreal install helpers.  
+Those are **not** what the Grok marketplace plugin ships or promises.
 
-## CLI (from XWare SOT tools, not this plugin repo alone)
+| Surface | Engine |
+|---------|--------|
+| Marketplace plugin / agent / skills | **Godot 4 3D** |
+| SOT elevate CLI (default) | **Godot 4** |
+| Optional SOT helpers | Unity/Unreal MVP (advanced users only) |
 
-```powershell
-py tools/xware/ai/experience_elevate.py --project <path> --engine auto --from-intent
-```
-
-## Honesty
-
-- FaceKit / full Motion OS / automated playtest: **Godot-first**  
-- No Nanite/Lumen claims  
-- Engine licenses (Unity, Epic) remain the user’s responsibility; XWare tools are MIT  
-
-Marketing: look/gameplay only — not internal safety mechanics.
+Keep public posts and marketplace copy **Godot-first**.

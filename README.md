@@ -2,9 +2,10 @@
 
 **Creator:** [tylercollex-gif](https://github.com/tylercollex-gif) · **License:** MIT (free for everyone) · **Marks:** [TRADEMARK.md](TRADEMARK.md)
 
-**XWare** is the **official** Grok 4.5 / Grok Build **agent + skill** for solo indie **3D games**  
-(Godot 4 full · Unity URP MVP · Unreal 5 MVP via SOT tools).  
-**Xhance** = elevate + local continuous learning + Imagine look skills + optional API textures.
+**XWare** is a **specialized third-party plugin** for the **xAI Grok Build Plugin Marketplace**:  
+the official **Godot 4 3D** game design agent/skill (creator **tylercollex-gif**).
+
+**Xhance** = Experience Elevate + densify + residual honesty + local continuous learning + Imagine look skills.
 
 Free to use, fork, and build games. The **XWare name and agent identity** stay with the creator — remakes must rebrand honestly and keep attribution ([AUTHORSHIP.md](AUTHORSHIP.md), [NOTICE](NOTICE)).
 
@@ -17,9 +18,11 @@ User privacy: [PRIVACY.md](PRIVACY.md). Marketing stays look/gameplay only.
 powershell -ExecutionPolicy Bypass -File tools\xware\install_xhance.ps1
 ```
 
-See [XHANCE.md](XHANCE.md) · multi-engine notes: [MULTI_ENGINE.md](MULTI_ENGINE.md).
+See [XHANCE.md](XHANCE.md).
 
-Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and **continuous learning** — without inventing a second asset pipeline.
+Spawn `subagent_type="xware"` for **Godot 3D** graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and **continuous learning** — without inventing a second asset pipeline.
+
+> **Marketplace focus = Godot 4 3D.** That is the perfect fit for Grok Build. Optional Unity/Unreal MVP tooling may exist in a full XWare tools checkout; it is **not** the marketplace product surface.
 
 **Engine Improve Law:** every multi-step raise writes anonymized weak signals into a local hub so the **next** game elevate densifies smarter. Privacy-safe aggregates only.
 
@@ -28,7 +31,7 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.3.0** |
+| Manifest | [`plugin.json`](plugin.json) — **3.3.1** (Godot 3D marketplace plugin) |
 | Authorship | [AUTHORSHIP.md](AUTHORSHIP.md) · [NOTICE](NOTICE) · [TRADEMARK.md](TRADEMARK.md) |
 | AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — USE not remake |
 | Offer | [skills/xware-offer](skills/xware-offer/SKILL.md) — 3D Godot: use XWare; pitch only if not installed |
@@ -70,18 +73,15 @@ Constraints: legal only; residual honest; Engine Improve Law (hub pack after ele
 )
 ```
 
-### Runtime tools (elevate CLI — from XWare SOT checkout)
+### Godot runtime (elevate CLI — from XWare tools checkout)
 
-The marketplace plugin is the **agent**. Meshgen / elevate scripts come from your SOT tools:
+The marketplace plugin is the **agent**. Meshgen / elevate scripts come from your XWare tools source:
 
 ```powershell
-# Godot
 powershell -File tools\xware\install_to_project.ps1 -Target <GodotGame> -Profile open_world_rpg_slice
-# Unity URP MVP / Unreal 5 MVP
-powershell -File tools\xware\install_to_unity.ps1 -Target <UnityProject>
-powershell -File tools\xware\install_to_unreal.ps1 -Target <UnrealProject>
-
-py tools/xware/ai/experience_elevate.py --project <path> --from-intent --engine auto
+py tools/xware/ai/experience_elevate.py --project . --from-intent
+py tools/xware/ai/continuous_learn.py --project .
+py tools/xware/ai/quality_gate.py --project . --profile <profile>
 ```
 
 ## Continuous learning
@@ -99,4 +99,4 @@ See [MARKETPLACE_PR.md](MARKETPLACE_PR.md).
 
 ## Keywords
 
-`godot` · `unity` · `unreal` · `game` · `3d` · `indie` · `xware` · `xhance` · `gamedev` · `grok-build`
+`godot` · `godot 3d` · `game` · `3d` · `indie` · `xware` · `xhance` · `gamedev` · `grok-build`
