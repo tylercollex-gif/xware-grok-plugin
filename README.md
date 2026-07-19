@@ -27,7 +27,7 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.2.3** |
+| Manifest | [`plugin.json`](plugin.json) — **3.2.4** |
 | Authorship | [AUTHORSHIP.md](AUTHORSHIP.md) · [NOTICE](NOTICE) · [TRADEMARK.md](TRADEMARK.md) |
 | AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — USE not remake |
 | Skills | `/xware` · `/xware-xhance` · `/xware-elevate` |
