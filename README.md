@@ -1,8 +1,8 @@
-# XWare — Grok Build Plugin
+﻿# XWare â€” Grok Build Plugin
 
 **XWare** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.
 
-Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and continuous learning — without inventing a second asset pipeline.
+Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and continuous learning â€” without inventing a second asset pipeline.
 
 | Component | Path |
 |-----------|------|
@@ -16,9 +16,9 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 ### From GitHub (after you publish)
 
 ```powershell
-grok plugin install YOURUSER/xware-grok-plugin --trust
+grok plugin install tylercollex-gif/xware-grok-plugin --trust
 # pin a commit (recommended for teams):
-# grok plugin install YOURUSER/xware-grok-plugin@COMMIT_SHA --trust
+# grok plugin install tylercollex-gif/xware-grok-plugin@COMMIT_SHA --trust
 ```
 
 ### From local path
@@ -33,7 +33,7 @@ grok plugin install "C:\Users\winge\Documents\Xware\grok-plugin" --trust
 powershell -File "C:\Users\winge\Documents\HelixProtocol\tools\xware\install_grok_builtin.ps1"
 ```
 
-Confirm in TUI: `/config-agents` → **xware**
+Confirm in TUI: `/config-agents` â†’ **xware**
 
 ## Use
 
@@ -45,14 +45,14 @@ spawn_subagent(
   isolation="none",
   prompt="""
 Project: <absolute path to Godot project>
-Profile: open_world_rpg_slice | strategy_tactics | factory_sim | space_arcade | …
+Profile: open_world_rpg_slice | strategy_tactics | factory_sim | space_arcade | â€¦
 Task: solo_bootstrap | experience_elevate | character_engine | playtest_improve_loop | quality_gate
 Constraints: legal only; residual honest; return report paths + pass/fail.
 """
 )
 ```
 
-Or ask Grok: *“Spawn XWare and experience-elevate this Godot project.”*
+Or ask Grok: *â€œSpawn XWare and experience-elevate this Godot project.â€*
 
 ### Godot project CLI (when XWare tools are installed in the game)
 
@@ -71,7 +71,7 @@ powershell -File tools\xware\install_to_project.ps1 -Target <YourGame> -Profile 
 
 ## Keywords
 
-`godot` · `game` · `3d` · `indie` · `graphics` · `animation` · `xware` · `gamedev` · `grok-build`
+`godot` Â· `game` Â· `3d` Â· `indie` Â· `graphics` Â· `animation` Â· `xware` Â· `gamedev` Â· `grok-build`
 
 ## Marketplace (xAI)
 
@@ -87,7 +87,7 @@ Local continuous learning uses **anonymized aggregates** only (profile, role wea
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT â€” see [LICENSE](LICENSE).
 
 ## Version
 

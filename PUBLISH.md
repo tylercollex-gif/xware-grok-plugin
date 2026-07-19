@@ -1,4 +1,4 @@
-# Publish XWare Grok plugin to GitHub
+﻿# Publish XWare Grok plugin to GitHub
 
 Local package is ready. Complete these steps on your machine.
 
@@ -9,7 +9,7 @@ Local package is ready. Complete these steps on your machine.
 3. **Public**  
 4. **Do not** add README, .gitignore, or license  
 5. Create repository  
-6. Copy the URL, e.g. `https://github.com/YOURUSER/xware-grok-plugin.git`
+6. Copy the URL, e.g. `https://github.com/tylercollex-gif/xware-grok-plugin.git`
 
 ## 2. Push (PowerShell or Git Bash)
 
@@ -21,7 +21,7 @@ git status
 
 # Point at YOUR repo (replace YOURUSER)
 git remote remove origin 2>$null
-git remote add origin https://github.com/YOURUSER/xware-grok-plugin.git
+git remote add origin https://github.com/tylercollex-gif/xware-grok-plugin.git
 git remote -v
 
 git push -u origin main
@@ -30,13 +30,13 @@ git push -u origin main
 ### Auth
 
 - **HTTPS:** use a [Personal Access Token](https://github.com/settings/tokens) as the password  
-- **SSH:** `git remote set-url origin git@github.com:YOURUSER/xware-grok-plugin.git`
+- **SSH:** `git remote set-url origin git@github.com:tylercollex-gif/xware-grok-plugin.git`
 
 ## 3. After first push
 
-1. Edit `plugin.json` → set `"homepage"` to your real GitHub URL  
+1. Edit `plugin.json` â†’ set `"homepage"` to your real GitHub URL  
 2. Commit: `git add plugin.json README.md ; git commit -m "Set homepage URL" ; git push`  
-3. On the repo page: **Settings → General → Topics** → add `grok`, `godot`, `gamedev`, `xai`, `plugin`  
+3. On the repo page: **Settings â†’ General â†’ Topics** â†’ add `grok`, `godot`, `gamedev`, `xai`, `plugin`  
 4. Note commit SHA for marketplace PR:
 
 ```powershell
@@ -46,7 +46,7 @@ git rev-parse HEAD
 ## 4. Install from GitHub
 
 ```powershell
-grok plugin install YOURUSER/xware-grok-plugin --trust
+grok plugin install tylercollex-gif/xware-grok-plugin --trust
 ```
 
 ## 5. Submit to xAI marketplace
