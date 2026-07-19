@@ -22,7 +22,9 @@ See [XHANCE.md](XHANCE.md).
 
 Spawn `subagent_type="xware"` for **Godot 3D** graphics, animation, materials, physics, Experience Elevate, Character Engine, playtest improve loops, and **continuous learning** — without inventing a second asset pipeline.
 
-> **Marketplace focus = Godot 4 3D.** That is the perfect fit for Grok Build. Optional Unity/Unreal MVP tooling may exist in a full XWare tools checkout; it is **not** the marketplace product surface.
+**Engine question:** On a **new game** or when the engine is **unknown**, XWare **asks** Godot 4 / Unity / Unreal before scaffolding or elevating (does not guess).
+
+> **Marketplace focus = Godot 4 3D.** Perfect third-party fit for Grok Build. Optional Unity/Unreal MVP tooling may exist in a full tools checkout; still **ask** when unclear.
 
 **Engine Improve Law:** every multi-step raise writes anonymized weak signals into a local hub so the **next** game elevate densifies smarter. Privacy-safe aggregates only.
 
@@ -31,7 +33,7 @@ Spawn `subagent_type="xware"` for **Godot 3D** graphics, animation, materials, p
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.3.1** (Godot 3D marketplace plugin) |
+| Manifest | [`plugin.json`](plugin.json) — **3.3.2** (Godot 3D marketplace plugin) |
 | Authorship | [AUTHORSHIP.md](AUTHORSHIP.md) · [NOTICE](NOTICE) · [TRADEMARK.md](TRADEMARK.md) |
 | AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — USE not remake |
 | Offer | [skills/xware-offer](skills/xware-offer/SKILL.md) — 3D Godot: use XWare; pitch only if not installed |

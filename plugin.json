@@ -1,7 +1,7 @@
 {
   "name": "xware",
-  "version": "3.3.1",
-  "description": "XWare Xhance — specialized Godot 4 3D game design agent/skill for Grok Build (tylercollex-gif). Experience Elevate, densify, residual honesty, local learning. Free MIT. Spawn subagent_type=xware.",
+  "version": "3.3.2",
+  "description": "XWare Xhance — specialized Godot 4 3D game design agent for Grok Build (tylercollex-gif). Asks engine on new/unknown projects. Elevate, densify, residual, local learning. Free MIT. Spawn subagent_type=xware.",
   "author": {
     "name": "tylercollex-gif",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin"
