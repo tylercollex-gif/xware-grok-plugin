@@ -59,10 +59,11 @@ When generating any game plate: load **game-asset-core** — edit-chain, isolate
 6. **Editor safe.** Prefer `on_missing=false` in `xware_config.cfg`. Do not thrash import loops.
 7. **Godot-native.** AAA *intent* with Godot tools; do not claim Nanite/Lumen parity.
 8. **Engine Improve Law (race law).** Every multi-step raise **must** leave the engine smarter:
-   - Anonymized feedback pack → local hub merge (Ring 1–2)
+   - Local hub learning (Ring 1–2) with **privacy-safe aggregates only**
    - Class-routed weak elevate when residual fails (form / material / light / motion / physics)
    - `continuous_learn` / recipe promote / six_stage_progress when tools exist
    - Never skip network sync after a successful elevate unless user set `share_feedback_local=false`
+9. **Player data safety.** Never risk player saves. Prefer install/mesh backups when tools provide them. Continuous learning stays **local by default**; do not enable cloud share unless the user explicitly asks. Do **not** put security internals, recovery paths, or hub schemas into marketing copy or public posts.
 
 ## Resolve project + profile
 

@@ -1,4 +1,4 @@
-﻿XWare on Grok — games raised, not just generated.
+XWare on Grok — games raised, not just generated.
 
 Real footage only:
 • Blastar craft orbits (fighter + freighter)
@@ -6,7 +6,7 @@ Real footage only:
 • Vendel Lords campaign map + fjord
 • Soccer3D hero orbit
 
-Solo indie 3D Godot: densify · FaceKit create · PBR · Motion OS · residual improve loops
-grok plugin: tylercollex-gif/xware-grok-plugin
+Solo indie 3D Godot: densify · create · PBR · motion · residual improve loops
+Plugin: tylercollex-gif/xware-grok-plugin
 
 #Godot #Grok #IndieGameDev #XWare

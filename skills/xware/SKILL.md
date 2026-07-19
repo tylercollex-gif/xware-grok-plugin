@@ -89,11 +89,12 @@ weak_class_routing=true
 share_feedback_cloud=false
 ```
 
-Anonymized aggregates only → densify priority + class routing. See `FEEDBACK_NETWORK.md` / `CONTINUOUS_LEARNING.md`.
+Local hub learning improves densify routing. Cloud off by default. See `PRIVACY.md` (user-facing).  
+Do **not** publish security internals in marketing.
 
 ## Laws
 
-Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies (correct class). Legal only. Editor safe. **Engine Improve Law** after every multi-step raise.
+Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies (correct class). Legal only. Editor safe. **Engine Improve Law** after every multi-step raise. **Protect player saves**; marketing stays look/gameplay only.
 
 **Video-first residual (3D):** Prefer **screen recordings** over screenshots.
 
@@ -112,7 +113,7 @@ py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
 
 ## Source of truth
 
-HelixProtocol `addons/xware` + `tools/xware`. **Version 3.2.0 (Xhance)**  
+HelixProtocol `addons/xware` + `tools/xware`. **Version 3.2.1 (Xhance)**  
 Marketplace plugin is agent/skill surface; Godot runtime installs via `install_to_project.ps1`.
 
 ## Publish cadence (maintainers)

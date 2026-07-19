@@ -1,7 +1,8 @@
 # XWare — Grok Build Plugin (Xhance 3.2)
 
 **XWare** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.  
-**Xhance** = full xAI power: elevate + continuous learning + Imagine look skills + optional API textures.
+**Xhance** = full xAI power: elevate + local continuous learning + Imagine look skills + optional API textures.  
+User privacy summary: [PRIVACY.md](PRIVACY.md). Marketing stays look/gameplay only — no security internals.
 
 ```powershell
 # Full power rehydrate (run after Grok CLI updates)
@@ -19,7 +20,7 @@ Spawn `subagent_type="xware"` for graphics, animation, materials, physics, Exper
 | Agent | [`agents/xware.md`](agents/xware.md) |
 | Skill | [`skills/xware/SKILL.md`](skills/xware/SKILL.md) |
 | Role | [`roles/xware.toml`](roles/xware.toml) |
-| Manifest | [`plugin.json`](plugin.json) — **3.2.0 (Xhance)** |
+| Manifest | [`plugin.json`](plugin.json) — **3.2.1 (Xhance)** |
 | Skills | `/xware` · `/xware-xhance` · `/xware-elevate` |
 
 ## Install

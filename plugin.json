@@ -1,7 +1,7 @@
 {
   "name": "xware",
-  "version": "3.2.0",
-  "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot: Experience Elevate, Character Engine, FaceKit create, playtest, continuous learning hub, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
+  "version": "3.2.1",
+  "description": "XWare Xhance 3.2 — solo indie 3D Godot: Experience Elevate, Character Engine, playtest, local continuous learning, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
   "author": {
     "name": "XWare"
   },

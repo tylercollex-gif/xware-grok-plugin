@@ -35,8 +35,9 @@ py tools/xware/ai/apply_ai_textures.py --project . --all
 - Residual honest; no quality ceiling
 - Video-first residual for 3D
 - Legal only
-- **Hub pack after every elevate**
+- **Hub pack after every elevate** (local by default)
+- **Protect player saves**; never put security internals in marketing
 
 ## Report back
 
-Pass/fail, gate, pack written, weak class, report paths.
+Pass/fail, gate, pack written, weak class, report paths (no security secrets in user-facing blurbs).

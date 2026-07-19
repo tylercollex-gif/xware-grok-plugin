@@ -17,6 +17,7 @@ powershell -File tools\xware\install_xhance.ps1
 | Plugin path | `Documents/Xware/grok-plugin` in config `[plugins].paths` |
 | Hub | `~/.grok/xware_network` |
 | Unattended textures | set `XAI_API_KEY` + `xai_api_enabled=true` in game config |
+| Privacy (user-facing) | [PRIVACY.md](PRIVACY.md) — local learning; marketing stays look/gameplay only |
 
 ## After Grok CLI update
 
