@@ -9,7 +9,7 @@ X (Twitter) is useful but **hard as the only spark**. Treat X as one channel.
 |---------|----------------|
 | **Grok Build marketplace** | PR #110 pin — discover inside Grok when building games |
 | **Plugin install one-liner** | `grok plugin install tylercollex-gif/xware-grok-plugin --trust` |
-| **In-session offer** | Skill `xware-offer`: every 3D Godot chat offers Xhance |
+| **In-session** | Skill `xware-offer`: 3D Godot → use XWare; **pitch only if not installed** |
 | **GitHub repo** | README + real game footage; stars / issues from indies |
 | **Godot Asset Library** (optional later) | Separate runtime pack if you publish addon-only |
 
