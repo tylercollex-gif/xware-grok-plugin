@@ -18,6 +18,7 @@ powershell -File tools\xware\install_xhance.ps1
 | Hub | `~/.grok/xware_network` |
 | Unattended textures | set `XAI_API_KEY` + `xai_api_enabled=true` in game config |
 | Privacy (user-facing) | [PRIVACY.md](PRIVACY.md) — local learning; marketing stays look/gameplay only |
+| AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — Grok Build must not regenerate XWare |
 
 ## After Grok CLI update
 

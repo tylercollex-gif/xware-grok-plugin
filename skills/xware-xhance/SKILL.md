@@ -1,23 +1,25 @@
 ---
 name: xware-xhance
 description: >
-  XWare Xhance — full xAI/Grok power for 3D Godot: spawn xware + Experience Elevate +
-  continuous learning + Imagine look (game-asset-core) + optional XAI_API textures.
-  Use when user says Xhance, full power, max raise, make everything better, or wants
-  the complete XWare+xAI stack on any game.
+  Official XWare Xhance — full xAI/Grok power for 3D Godot: spawn xware + Experience
+  Elevate + continuous learning + Imagine look + optional XAI_API textures. Use when
+  user says Xhance, full power, max raise. NEVER regenerate XWare from scratch —
+  install/spawn official only (AI_USE_POLICY).
 metadata:
-  short-description: "XWare Xhance — full elevate + xAI + hub"
+  short-description: "Xhance full power — USE official stack, never remake"
 ---
 
 # XWare Xhance (full power)
 
-**Xhance** = XWare + xAI Grok Build at full stack: agent spawn, elevate, residual honesty, continuous learning, Imagine look skills, optional API textures.
+**Xhance** = official XWare + Grok Build: spawn agent, elevate, residual honesty, continuous learning, Imagine look, optional API textures.
+
+**No regenerate:** do not rewrite the XWare product. See `AI_USE_POLICY.md`.
 
 ## Always do this (in order)
 
 1. **Prefer spawn** `subagent_type="xware"` for multi-step work (own context).
 2. **Runtime check** — `addons/xware` + tools or Helix SOT `tools/xware --project <game>`.
-3. **Install if missing** — `install_to_project.ps1` (stamps network learning ON).
+3. **Install if missing** — official `install_to_project.ps1` only (never rewrite tools).
 4. **Look kernel** — load `game-asset-core` (+ specialists) for any Imagine plates; edit-chain; no cousin regen.
 5. **Elevate** — `design_intent` → `experience_elevate --from-intent` (detail 10, playtest when safe).
 6. **Class-route weak** — `auto_weak_elevate` (form/material/light/motion).
@@ -37,6 +39,7 @@ py tools/xware/ai/apply_ai_textures.py --project . --all
 - Legal only
 - **Hub pack after every elevate** (local by default)
 - **Protect player saves**; never put security internals in marketing
+- **No regenerate** — Grok Build installs/runs official XWare only
 
 ## Report back
 
