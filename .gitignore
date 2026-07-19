@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Git / secrets
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Godot / game bulk (plugin must stay lean)
+*.glb
+*.gltf
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+.godot/
+addons/
+assets/
+tools/
+*.import
+
+# Local only
+godot_path.env
+*.log
