@@ -90,6 +90,7 @@ powershell -File tools/xware/install_to_project.ps1 -Target <game> -Profile <pro
 # Unity/Unreal MVP: install_to_unity.ps1 / install_to_unreal.ps1
 py tools/xware/ai/experience_elevate.py --project . --from-intent --engine auto
 # Learn from THIS project + ALL local XWare games (efficiency race):
+py tools/xware/ai/learn_probe.py --project . --engine auto --full-harvest
 py tools/xware/ai/continuous_learn.py --project . --all-projects --skip-elevate
 # or: py tools/xware/ai/harvest_all_games.py
 py tools/xware/ai/quality_gate.py --profile <profile>
@@ -146,7 +147,7 @@ py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
 
 ## Source of truth
 
-XWare SOT: `addons/xware` + `tools/xware`. **Version 3.4.0 (multi-engine Xhance)**  
+XWare SOT: `addons/xware` + `tools/xware`. **Version 3.5.0 (multi-engine Xhance)**  
 Marketplace: **tylercollex-gif/xware-grok-plugin**.  
 Installs: `install_to_project.ps1` · `install_to_unity.ps1` · `install_to_unreal.ps1`.  
 Hub: `~/.grok/xware_network` (all engines, privacy-safe). See `MULTI_ENGINE.md` · `GROWTH.md`.

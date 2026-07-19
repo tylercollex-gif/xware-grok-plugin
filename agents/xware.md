@@ -51,7 +51,7 @@ structured summary the parent can act on. Do **not** call `spawn_subagent`
 | Creator | **tylercollex-gif** (official) |
 | Handbook | `addons/xware/XWARE.md` |
 | Agent contract | `addons/xware/AGENT.md` |
-| Version | **3.4.0 Xhance multi-engine** |
+| Version | **3.5.0 Xhance multi-engine** |
 | Official plugin | https://github.com/tylercollex-gif/xware-grok-plugin |
 | Engines | Godot 4 full Â· Unity URP MVP Â· Unreal 5 MVP |
 | Hub | `~/.grok/xware_network` â€” all engines, privacy-safe aggregates |
@@ -90,7 +90,7 @@ When generating any game plate: load **game-asset-core** â€” edit-chain, is
    - After **any** solo_bootstrap / elevate / character / densify / material / motion / playtest stage → hub pack:
      continuous_learn.py --project <root> --skip-elevate
    - Prefer once per session end: continuous_learn.py --project <root> --all-projects --skip-elevate
-     or harvest_all_games.py — learns aggregates from **all** local XWare games Grok touched
+     or harvest_all_games.py / learn_probe.py --full-harvest — learns aggregates from all local Grok-created 3D games
    - Local hub across **Godot + Unity + Unreal** (engine tag) — privacy-safe aggregates only
    - Class-routed weak elevate when residual fails
    - Never skip learning after multi-step work unless user set share_feedback_local=false
@@ -114,6 +114,13 @@ When generating any game plate: load **game-asset-core** â€” edit-chain, is
 > 2) **Unity** (URP)  
 > 3) **Unreal Engine 5**  
 > 4) Other / not sure  
+
+
+15. **Register every Grok-created project for learning.** After creating or opening a 3D game path:
+    py tools/xware/ai/learn_probe.py --project <path> --engine <engine> --full-harvest
+    or at minimum 
+egister_grok_project.py + continuous_learn --all-projects --skip-elevate.
+    Presence packs cover projects before full XWare install (local hub only).
 
 Skip this question only if engine is already **known** (path markers, user said â€œGodot/Unity/Unrealâ€, or prior answer this session).
 

@@ -60,22 +60,23 @@ py tools/xware/ai/continuous_learn.py --project <path>
 
 See [MULTI_ENGINE.md](MULTI_ENGINE.md) · [XHANCE.md](XHANCE.md)
 
-## Continuous learning (all engines, privacy-safe)
+## Continuous learning (powerhouse loop)
 
-Every elevate on **Godot, Unity, or Unreal** can feed the **same local hub**:
+As Grok creates more 3D games, XWare learns **privacy-safe aggregates** so the next elevate is smarter.
 
-`~/.grok/xware_network/`
+```powershell
+# After every Grok game create/elevate:
+py tools/xware/ai/learn_probe.py --project <GamePath> --engine auto --full-harvest
+```
 
 | Shared (aggregates) | Never shared |
 |---------------------|--------------|
 | Profile, residual rates, weak classes | Paths, usernames, saves |
 | Score buckets, version, **engine** tag | Meshes, textures, source |
-| Anonymized project hash | Asset names |
+| Gen signals / report flags | Asset names |
 
-Cloud is **off** by default. Packs are validated + allowlisted before hub admission.  
-Cross-engine merge improves densify priority for **all** installed projects on the machine.
-
-Details: [PRIVACY.md](PRIVACY.md)
+Hub: `~/.grok/xware_network/` (Godot + Unity + Unreal). Cloud fleet **opt-in only**.  
+See [LEARN_NETWORK.md](LEARN_NETWORK.md) · [PRIVACY.md](PRIVACY.md)
 
 ## Showcase
 

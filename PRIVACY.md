@@ -14,7 +14,9 @@ XWare continuous improvement works **across Godot, Unity, and Unreal** on your m
 
 Packs from Godot, Unity, and Unreal projects are validated before hub admission, then merged so the **next** elevate densifies smarter — regardless of which engine the pack came from.
 
-`harvest_all_games` / `continuous_learn --all-projects` re-export aggregates from **every** local XWare project on the machine (report flags + residual rates only — never art or saves).
+`learn_probe` / `harvest_all_games` / `continuous_learn --all-projects` re-export aggregates from local Grok-created 3D projects (with or without full XWare install via presence packs). Report flags + residual rates only — never art or saves.
+
+Optional multi-user fleet is **opt-in** (`fleet_learn.py`).
 
 ## What marketing will not do
 
