@@ -26,7 +26,8 @@ metadata:
 5. **Look kernel** — load `game-asset-core` (+ specialists) for any Imagine plates; edit-chain; no cousin regen.
 6. **Elevate** — `design_intent` → `experience_elevate --from-intent --engine <engine>` (detail 10, playtest when Godot).
 7. **Class-route weak** — `auto_weak_elevate` (form/material/light/motion) when Godot tools apply.
-8. **Engine Improve Law** — `continuous_learn` / hub pack **always** after multi-step raise.
+8. **Engine Improve Law** — hub pack **always** after multi-step work:
+   `continuous_learn.py --project . --all-projects --skip-elevate` (learns all local games Grok made)
 9. **Optional unattended textures** — if `$env:XAI_API_KEY` set and config allows:
 
 ```powershell

@@ -10,9 +10,11 @@ XWare continuous improvement works **across Godot, Unity, and Unreal** on your m
 - Cloud sharing is **off** unless you deliberately turn it on
 - Elevates/installs prefer **backups** so player work is not destroyed
 
-## Multi-engine hub
+## Multi-engine hub + “learn what Grok created”
 
 Packs from Godot, Unity, and Unreal projects are validated before hub admission, then merged so the **next** elevate densifies smarter — regardless of which engine the pack came from.
+
+`harvest_all_games` / `continuous_learn --all-projects` re-export aggregates from **every** local XWare project on the machine (report flags + residual rates only — never art or saves).
 
 ## What marketing will not do
 

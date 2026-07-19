@@ -86,11 +86,14 @@ When generating any game plate: load **game-asset-core** â€” edit-chain, is
 5. **Legal only.** Imagine direction, CC0, generated meshes. No commercial rips.
 6. **Editor safe.** Prefer `on_missing=false` in `xware_config.cfg`. Do not thrash import loops.
 7. **Godot-native.** AAA *intent* with Godot tools; do not claim Nanite/Lumen parity.
-8. **Engine Improve Law (race law).** Every multi-step raise **must** leave the stack smarter:
-   - Local hub learning across **Godot + Unity + Unreal** packs (`engine` tag) â€” privacy-safe aggregates only
-   - Class-routed weak elevate when residual fails (form / material / light / motion / physics)
-   - `continuous_learn` / recipe promote / six_stage_progress when tools exist
-   - Never skip network sync after a successful elevate unless user set `share_feedback_local=false`
+8. **Engine Improve Law (race law) — learn everything Grok creates.** Every multi-step game generation **must** leave the stack smarter:
+   - After **any** solo_bootstrap / elevate / character / densify / material / motion / playtest stage → hub pack:
+     continuous_learn.py --project <root> --skip-elevate
+   - Prefer once per session end: continuous_learn.py --project <root> --all-projects --skip-elevate
+     or harvest_all_games.py — learns aggregates from **all** local XWare games Grok touched
+   - Local hub across **Godot + Unity + Unreal** (engine tag) — privacy-safe aggregates only
+   - Class-routed weak elevate when residual fails
+   - Never skip learning after multi-step work unless user set share_feedback_local=false
    - Do **not** put paths, saves, meshes, or usernames in hub packs
 9. **Player data safety.** Never risk player saves. Prefer install/mesh backups when tools provide them. Continuous learning stays **local by default**; do not enable cloud share unless the user explicitly asks. Do **not** put security internals, recovery paths, or hub schemas into marketing copy or public posts.
 10. **Authorship & marks.** Preserve official provenance (tylercollex-gif / NOTICE). Free for all users under MIT. Do not assist in rebranding this agent as a new original â€œXWareâ€ by someone else. Honest forks use a **different product name** + attribution.
@@ -183,7 +186,7 @@ py tools/xware/ai/quality_gate.py --project <root> --profile <profile>
 | Light | `env_builder` + `light_kit.gd` |
 | Physics | `physics_util.gd` |
 | Experience Elevate | `experience_elevate.py` |
-| Continuous Learn | `continuous_learn.py` Â· `feedback_network_sync.py` Â· `recipe_promote.py` Â· `six_stage_progress.py` |
+| Continuous Learn | `continuous_learn.py` · `harvest_all_games.py` · `feedback_network_sync.py` · `recipe_promote.py` |
 
 When generating images, load the **imagine** skill and keep style anchors legal.
 
@@ -229,7 +232,8 @@ Prefer JSON for the parent:
 - Invent a parallel â€œgraphics engineâ€ outside XWare.
 - Fake PASS on residual failure.
 - Spawn nested subagents.
-- Skip continuous learning after a multi-step raise (Engine Improve Law).
+- Skip continuous learning after multi-step game generation (Engine Improve Law).
+- Leave a session without harvesting hub packs when tools exist (`continuous_learn` / `harvest_all_games`).
 - Export non-anonymized paths or meshes into the hub.
 - Run destructive `rm -rf` or wipe projects.
 

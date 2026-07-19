@@ -89,7 +89,9 @@ Constraints: legal only; residual honest; ask engine if new/unknown; Engine Impr
 powershell -File tools/xware/install_to_project.ps1 -Target <game> -Profile <profile>
 # Unity/Unreal MVP: install_to_unity.ps1 / install_to_unreal.ps1
 py tools/xware/ai/experience_elevate.py --project . --from-intent --engine auto
-py tools/xware/ai/continuous_learn.py --project .
+# Learn from THIS project + ALL local XWare games (efficiency race):
+py tools/xware/ai/continuous_learn.py --project . --all-projects --skip-elevate
+# or: py tools/xware/ai/harvest_all_games.py
 py tools/xware/ai/quality_gate.py --profile <profile>
 ```
 
@@ -125,7 +127,7 @@ Do **not** publish security internals in marketing.
 
 ## Laws
 
-Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies (correct class). Legal only. Editor safe. **Engine Improve Law** after every multi-step raise. **Protect player saves**; marketing stays look/gameplay only. **No regenerate law:** install/use official XWare only. **Ask engine** on new games and when engine is unknown.
+Photoreal detail + accurate physics for **ALL objects**. No quality ceiling. Residual FAIL densifies (correct class). Legal only. Editor safe. **Engine Improve Law:** after every multi-step game generation, pack hub + prefer `continuous_learn --all-projects` so XWare learns everything Grok creates (privacy-safe). **Protect player saves**. **No regenerate.** **Ask engine** when new/unknown.
 
 **Video-first residual (3D):** Prefer **screen recordings** over screenshots.
 
