@@ -1,4 +1,4 @@
-﻿# XWare â€” Grok Build Plugin
+﻿# XWare ” Grok Build Plugin
 
 **XWare** is a Grok 4.5 / Grok Build **agent + skill** for **solo indie 3D Godot** game creation.
 
