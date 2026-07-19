@@ -1,41 +1,44 @@
-# XWare marketing recordings
+# XWare / Xhance marketing
 
-Legal-only **from-scratch** game footage used for trailers and residual harvest demos.  
-No commercial rips — generated hero GLBs + GDScript gameplay.
+Real-game footage for trailers and residual demos. **Look & gameplay only.**
+
+## Message
+
+**XWare Xhance works across three engines:**
+
+- **Godot 4** — full Experience Elevate  
+- **Unity (URP)** — densify + PBR MVP  
+- **Unreal Engine 5** — densify + PBR MVP  
+
+One Grok agent. Shared continuous learning. Residual honesty. Free MIT.
 
 ## Clips
 
-| File | What it shows |
-|------|---------------|
-| `01_xware_craft_fighter_orbit.mp4` | Orbit turntable of fighter craft |
-| `02_xware_craft_freighter_orbit.mp4` | Orbit turntable of freighter craft |
-| `playtest_orbit_engine.mp4` | In-engine playtest (orbit mode) |
-| `playtest_main_showcase.mp4` | Live main scene / arena boot |
-| `03_xware_plugin_trailer.mp4` | Plugin trailer cut |
+| File | Shows |
+|------|--------|
+| `01_xware_craft_fighter_orbit.mp4` | Craft orbit (fighter) |
+| `02_xware_craft_freighter_orbit.mp4` | Craft orbit (freighter) |
+| `playtest_orbit_engine.mp4` | In-engine orbit playtest |
+| `playtest_main_showcase.mp4` | Live main scene |
+| `03_xware_plugin_trailer.mp4` | Plugin trailer |
 | `xware_x_showcase_games_real.mp4` | Multi-game real-footage reel |
 
-## Suggested captions (any network — not only X)
+## Captions
 
 **Short**
 
-> Empty Godot folder → playable 3D with XWare Xhance.  
-> `spawn_subagent(subagent_type="xware")`  
-> `grok plugin install tylercollex-gif/xware-grok-plugin --trust`
+> XWare Xhance on Grok — raise 3D games, not just generate them.  
+> Godot · Unity URP · Unreal 5  
+> `spawn_subagent(subagent_type="xware")`
 
 **Medium**
 
-> Building a 3D Godot game? XWare Xhance is the free efficiency agent for Grok Build: elevate, densify, residual honesty, legal assets only.
-
-**Where to post for spark (X alone is hard)**
-
-Godot Forum · r/godot · r/IndieDev · Godot Discord · YouTube Shorts · jam pages · Grok marketplace listing  
-
-See repo `GROWTH.md`.
+> Solo indie 3D? XWare Xhance elevates densify, materials, residual honesty — with continuous learning across projects. Free on Grok Build. Godot full path; Unity & Unreal MVP.
 
 ## Legal
 
-Homage / original gameplay only. No commercial asset rips. Generated meshes and XWare PBR inbox textures where used.
+Legal-only generated assets / homage gameplay. No commercial rips.
 
 ## Note
 
-Marketing materials describe **look and gameplay only**. Do not document internal safety controls, hub schemas, or operator recovery paths in public posts.
+Do **not** document internal safety controls or hub implementation details in public posts.

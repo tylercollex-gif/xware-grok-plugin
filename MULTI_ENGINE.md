@@ -1,19 +1,42 @@
-# Engines (advanced / tools checkout only)
+# XWare / Xhance — three engines
 
-## Marketplace product = Godot 4 3D
+**One product. Three runtimes.**
 
-**Grok Build Plugin Marketplace** lists XWare as a **specialized Godot 3D** agent/skill.  
-That is intentional and correct.
+| Engine | Status | What users get |
+|--------|--------|----------------|
+| **Godot 4** | Full | Experience Elevate, FaceKit, Motion OS, playtest, quality gate |
+| **Unity (URP)** | MVP | Install `Assets/XWare`, densify GLB + PBR stage, Editor menus import |
+| **Unreal Engine 5** | MVP | Install `Content/XWare`, densify GLB + PBR stage, Content Browser import |
 
-## Optional tools (not marketplace surface)
+## Agent always asks when unclear
 
-A full XWare **tools** checkout may include experimental Unity/Unreal install helpers.  
-Those are **not** what the Grok marketplace plugin ships or promises.
+On **new games** or **unknown** project layout, XWare asks:
 
-| Surface | Engine |
-|---------|--------|
-| Marketplace plugin / agent / skills | **Godot 4 3D** |
-| SOT elevate CLI (default) | **Godot 4** |
-| Optional SOT helpers | Unity/Unreal MVP (advanced users only) |
+1. Godot 4  
+2. Unity (URP)  
+3. Unreal Engine 5  
+4. Other  
 
-Keep public posts and marketplace copy **Godot-first**.
+Then routes install + elevate for that engine.
+
+## Continuous learning across engines
+
+All three engines write **privacy-safe** packs into the shared hub:
+
+```text
+~/.grok/xware_network/
+```
+
+Each pack is tagged with `engine: godot | unity | unreal`.  
+Merge combines residual/class signals so densify order improves **across** projects and engines on the same machine — without sharing saves, meshes, or paths.
+
+## Honest limits
+
+- FaceKit / full Motion OS / automated playtest: deepest on **Godot**  
+- Unity: **URP** materials focus  
+- Unreal: no Nanite/Lumen claims; Epic EULA for the engine  
+- XWare tools: MIT  
+
+## Marketing
+
+Show **results** (footage, elevate outcomes). Do not publish operator security internals.

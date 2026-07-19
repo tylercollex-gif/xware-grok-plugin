@@ -1,9 +1,22 @@
-﻿# XWare Xhance (full xAI power)
+# XWare Xhance (full power)
+
+**Xhance** = multi-engine elevate stack on Grok Build: agent + skills + residual honesty + local continuous learning + Imagine look.
+
+## Engines
+
+| Engine | Elevate |
+|--------|---------|
+| Godot 4 | Full |
+| Unity URP | MVP |
+| Unreal 5 | MVP |
+
+Asks engine on **new** games or when **unknown**.
 
 ## Install / rehydrate
 
 ```powershell
-# From your XWare SOT tools checkout (not this plugin-only clone)
+grok plugin install tylercollex-gif/xware-grok-plugin --trust
+# From XWare tools checkout after CLI updates:
 powershell -File tools\xware\install_xhance.ps1
 ```
 
@@ -13,13 +26,7 @@ powershell -File tools\xware\install_xhance.ps1
 |---------|-----|
 | Agent | `subagent_type="xware"` · `/config-agents` |
 | Skills | `/xware` `/xware-xhance` `/xware-elevate` `/xware-offer` `/xware-no-copycat` |
-| Offer | Every **3D Godot** project should be offered Xhance for efficiency |
-| Plugin path | `Documents/Xware/grok-plugin` in config `[plugins].paths` |
-| Hub | `~/.grok/xware_network` |
-| Unattended textures | set `XAI_API_KEY` + `xai_api_enabled=true` in game config |
-| Privacy (user-facing) | [PRIVACY.md](PRIVACY.md) — local learning; marketing stays look/gameplay only |
-| AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — Grok Build must not regenerate XWare |
-
-## After Grok CLI update
-
-Re-run `install_xhance.ps1` (bundled agents get wiped on CLI update).
+| Hub | `~/.grok/xware_network` (all engines, privacy-safe) |
+| Privacy | [PRIVACY.md](PRIVACY.md) |
+| Engines | [MULTI_ENGINE.md](MULTI_ENGINE.md) |
+| AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — use, do not remake |

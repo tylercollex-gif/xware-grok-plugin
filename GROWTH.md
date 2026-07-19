@@ -1,52 +1,42 @@
-# Growing XWare beyond X alone
+# Growing XWare / Xhance
 
-X (Twitter) is useful but **hard as the only spark**. Treat X as one channel.
-**Xhance** should meet people **where they already make 3D Godot games**.
+## Product pitch (all channels)
 
-## Product distribution (highest leverage)
+**XWare Xhance** — free multi-engine 3D elevate agent for Grok Build  
+**Godot 4** full · **Unity URP** MVP · **Unreal 5** MVP  
+One hub continuous learning · residual honesty · legal assets only  
 
-| Channel | Why it works |
-|---------|----------------|
-| **Grok Build marketplace** | PR #110 pin — discover inside Grok when building games |
-| **Plugin install one-liner** | `grok plugin install tylercollex-gif/xware-grok-plugin --trust` |
-| **In-session** | Skill `xware-offer`: 3D Godot → use XWare; **pitch only if not installed** |
-| **GitHub repo** | README + real game footage; stars / issues from indies |
-| **Godot Asset Library** (optional later) | Separate runtime pack if you publish addon-only |
-
-## Community (where Godot people live)
-
-| Place | Post style |
-|-------|------------|
-| **Godot Forum** (Showcase / Plugins) | Short “before/after elevate” + install line; real footage |
-| **r/godot**, **r/IndieDev** | One clip + problem→solution (boxy mesh → densified) |
-| **Godot Discord** | Help threads: offer Xhance when someone asks “meshes look bad” |
-| **YouTube / Shorts / TikTok** | 15–30s orbit + playtest; end card with install |
-| **itch.io jam pages** | “Built with XWare” on jam games you ship |
-| **Devlogs** (Steam, blog) | Efficiency story, not tech internals |
-
-## Content that sparks (product only)
-
-- **Real game footage only** (you already have reels under `marketing/`)
-- Problem → install → result in under 30s  
-- **No** security internals, hub schemas, or operator recovery paths  
-- **Always** free MIT + official author **tylercollex-gif**
-
-### Caption skeleton (any network)
-
-```
-3D Godot looking boxy?
-XWare Xhance = free elevate agent for Grok Build.
-spawn subagent_type=xware
+```text
 grok plugin install tylercollex-gif/xware-grok-plugin --trust
+spawn subagent_type=xware
 ```
 
-## What not to rely on
+## Distribution
 
-- X algorithmic reach alone  
-- One mega-thread without video  
-- Claims of Nanite/Lumen parity  
+| Channel | Angle |
+|---------|--------|
+| Grok marketplace | Third-party elevate agent for 3D games |
+| GitHub | Multi-engine README + real footage |
+| Godot Forum / r/godot | Full-depth Godot elevate clips |
+| Unity / Unreal communities | MVP densify + PBR stage story |
+| Shorts / TikTok / YouTube | 15–30s before→after meshes |
+| Indie Discord / jams | “Built with XWare” |
+
+## Caption skeleton
+
+```
+Boxy 3D? Raise it with XWare Xhance on Grok.
+Godot full · Unity URP · Unreal 5 MVP
+One continuous-learning hub. Free MIT.
+spawn subagent_type=xware
+```
+
+## Do not publish
+
+- Security internals, hub schemas, recovery paths  
+- Machine-local absolute paths  
+- API keys  
 
 ## Maintainers
 
-After engine wins: bump plugin → push → marketplace pin → **one** solid demo clip
-to Godot forum + Reddit + short video — not only X.
+Bump plugin → push → marketplace pin after engine wins.

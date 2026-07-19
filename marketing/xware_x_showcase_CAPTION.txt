@@ -1,12 +1,13 @@
-XWare on Grok — games raised, not just generated.
+XWare Xhance on Grok — games raised, not just generated.
 
-Real footage only:
-• Blastar craft orbits (fighter + freighter)
-• In-engine playtest / orbit capture
-• Vendel Lords campaign map + fjord
-• Soccer3D hero orbit
+Godot 4 full · Unity URP MVP · Unreal Engine 5 MVP
+One continuous-learning hub. Residual honesty. Free MIT.
 
-Solo indie 3D Godot: densify · create · PBR · motion · residual improve loops
-Plugin: tylercollex-gif/xware-grok-plugin
+Real footage:
+• Craft orbits · playtest captures
+• Multi-game elevate results
 
-#Godot #Grok #IndieGameDev #XWare
+spawn subagent_type=xware
+grok plugin install tylercollex-gif/xware-grok-plugin --trust
+
+#Godot #Unity #Unreal #Grok #IndieGameDev #XWare #Xhance
