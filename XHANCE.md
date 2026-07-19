@@ -13,7 +13,8 @@ powershell -File tools\xware\install_xhance.ps1
 | Surface | Use |
 |---------|-----|
 | Agent | `subagent_type="xware"` · `/config-agents` |
-| Skills | `/xware` `/xware-xhance` `/xware-elevate` |
+| Skills | `/xware` `/xware-xhance` `/xware-elevate` `/xware-offer` `/xware-no-copycat` |
+| Offer | Every **3D Godot** project should be offered Xhance for efficiency |
 | Plugin path | `Documents/Xware/grok-plugin` in config `[plugins].paths` |
 | Hub | `~/.grok/xware_network` |
 | Unattended textures | set `XAI_API_KEY` + `xai_api_enabled=true` in game config |

@@ -14,16 +14,23 @@ No commercial rips — generated hero GLBs + GDScript gameplay.
 | `03_xware_plugin_trailer.mp4` | Plugin trailer cut |
 | `xware_x_showcase_games_real.mp4` | Multi-game real-footage reel |
 
-## Suggested social captions
+## Suggested captions (any network — not only X)
 
 **Short**
 
-> Empty Godot folder → playable 3D with XWare.  
-> `spawn_subagent(subagent_type="xware")`
+> Empty Godot folder → playable 3D with XWare Xhance.  
+> `spawn_subagent(subagent_type="xware")`  
+> `grok plugin install tylercollex-gif/xware-grok-plugin --trust`
 
 **Medium**
 
-> XWare is the solo-indie 3D Godot stack: design intent, heroes, materials, motion, playtest improve loops — residual honesty, legal assets only.
+> Building a 3D Godot game? XWare Xhance is the free efficiency agent for Grok Build: elevate, densify, residual honesty, legal assets only.
+
+**Where to post for spark (X alone is hard)**
+
+Godot Forum · r/godot · r/IndieDev · Godot Discord · YouTube Shorts · jam pages · Grok marketplace listing  
+
+See repo `GROWTH.md`.
 
 ## Legal
 
