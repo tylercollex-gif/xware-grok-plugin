@@ -1,7 +1,7 @@
 # xAI Plugin Marketplace — PR materials for XWare
 
 **Plugin repo:** https://github.com/tylercollex-gif/xware-grok-plugin  
-**Pinned SHA (main):** `e84069479fa50366fe8d5e74910a7adc3638f47e`  
+**Pinned SHA (main):** `435112fb632020ee256d46dd61644f71873a56c1`  
 **Catalog:** https://github.com/xai-org/plugin-marketplace  
 
 ---
@@ -20,7 +20,7 @@ Add this object to the `plugins` array in
   "source": {
     "source": "url",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-    "sha": "e84069479fa50366fe8d5e74910a7adc3638f47e"
+    "sha": "435112fb632020ee256d46dd61644f71873a56c1"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
   "keywords": [
@@ -67,7 +67,7 @@ XWare is a Grok agent + skill pack for **solo indie 3D Godot** game creation:
 | Field | Value |
 |-------|--------|
 | Repo | https://github.com/tylercollex-gif/xware-grok-plugin |
-| Pin SHA | `e84069479fa50366fe8d5e74910a7adc3638f47e` |
+| Pin SHA | `435112fb632020ee256d46dd61644f71873a56c1` |
 | Category | `development` |
 
 ## Install (after merge)
@@ -154,6 +154,7 @@ Users can install from the official marketplace. When you update the plugin late
 ```powershell
 cd C:\Users\winge\Documents\Xware\grok-plugin
 git rev-parse HEAD
-# Must equal: e84069479fa50366fe8d5e74910a7adc3638f47e
+# Must equal: 435112fb632020ee256d46dd61644f71873a56c1
 # If you pushed new commits, update the SHA in marketplace.json
 ```
+
