@@ -20,15 +20,15 @@
 | SOT `addons/xware/VERSION` | 3.6.0 |
 | Plugin `plugin.json` | 3.6.0 |
 
-## Marketplace pin (placeholder)
+## Marketplace pin (soft launch B)
 
 ```
 Repo: tylercollex-gif/xware-grok-plugin
-Commit SHA: <FILL_AFTER_PUSH>
-PR: plugin-marketplace #110 follow-up or new pin PR
+Commit SHA: a4d5a0d5a39a2c8ac31f40d1396bdf7496bceb60
+Short: a4d5a0d
+PR: https://github.com/xai-org/plugin-marketplace/pull/110
+Channels: GitHub + marketplace pin only (no social)
 ```
-
-**Do not update pin until SHA exists and Step 9 approves.**
 
 ## Install
 
