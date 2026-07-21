@@ -56,7 +56,18 @@ powershell -File tools\xware\install_to_unreal.ps1 -Target <UnrealProject>
 
 py tools/xware/ai/experience_elevate.py --project <path> --from-intent --engine auto
 py tools/xware/ai/continuous_learn.py --project <path>
+
+# Immersion (props / setdress / place density)
+py tools/xware/ai/immersion_plan.py --project <path> --apply-generate
+py tools/xware/ai/immersion_surge.py --project <path>
+py tools/xware/ai/object_analyze.py --project <path> --prop-vision --write-report
+
+# Unity / Unreal setdress stage (MVP)
+py tools/xware/ai/immersion_stage_engines.py --unity <UnityProject>
+py tools/xware/ai/unity_elevate.py --project <UnityProject> --immersion
 ```
+
+Godot runtime after plan: `XWare.apply_immersion_scatter(scene)` · `XWare.apply_presentation_residual(scene)`
 
 See [MULTI_ENGINE.md](MULTI_ENGINE.md) · [XHANCE.md](XHANCE.md)
 

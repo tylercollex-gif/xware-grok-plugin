@@ -30,3 +30,7 @@ powershell -File tools\xware\install_xhance.ps1
 | Privacy | [PRIVACY.md](PRIVACY.md) |
 | Engines | [MULTI_ENGINE.md](MULTI_ENGINE.md) |
 | AI policy | [AI_USE_POLICY.md](AI_USE_POLICY.md) — use, do not remake |
+
+## 3.6 Immersion
+
+Prop vision residual, setdress scatter, multi-game immersion surge, Unity/Unreal prop stage MVP. See tools IMMERSION.md / SIS_XWARE.md.

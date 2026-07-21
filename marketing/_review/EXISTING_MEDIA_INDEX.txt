@@ -1,0 +1,14 @@
+
+Name                                Length
+----                                ------
+01_xware_craft_fighter_orbit.mp4    118989
+02_xware_craft_freighter_orbit.mp4  135938
+03_xware_plugin_trailer.mp4         714441
+playtest_main_showcase.mp4          324954
+playtest_orbit_engine.mp4           535843
+README.md                             1318
+xware_x_showcase_CAPTION.txt           401
+xware_x_showcase_games_real.mp4    2908828
+
+
+

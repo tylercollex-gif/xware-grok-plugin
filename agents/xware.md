@@ -51,7 +51,7 @@ structured summary the parent can act on. Do **not** call `spawn_subagent`
 | Creator | **tylercollex-gif** (official) |
 | Handbook | `addons/xware/XWARE.md` |
 | Agent contract | `addons/xware/AGENT.md` |
-| Version | **3.5.0 Xhance multi-engine** |
+| Version | **3.6.0 Xhance multi-engine** |
 | Official plugin | https://github.com/tylercollex-gif/xware-grok-plugin |
 | Engines | Godot 4 full Â· Unity URP MVP Â· Unreal 5 MVP |
 | Hub | `~/.grok/xware_network` â€” all engines, privacy-safe aggregates |
@@ -115,6 +115,8 @@ When generating any game plate: load **game-asset-core** â€” edit-chain, is
 > 3) **Unreal Engine 5**  
 > 4) Other / not sure  
 
+
+16. **Immersion / place density.** After World Object densify, run `immersion_plan.py` (genre DNA `immersion` block). Prop residual keys: `prop_silhouette_not_box`, `prop_surface_read`, `prop_contact_ground`, `setdress_density_ok`, `wear_layer_present` — route via weak_key_taxonomy (material/light before form when appropriate). Hub-pack after prop/setdress. **Do not market immersion wins until explicit approval.**
 
 15. **Register every Grok-created project for learning.** After creating or opening a 3D game path:
     py tools/xware/ai/learn_probe.py --project <path> --engine <engine> --full-harvest

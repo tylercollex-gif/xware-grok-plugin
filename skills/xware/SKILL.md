@@ -94,6 +94,12 @@ py tools/xware/ai/learn_probe.py --project . --engine auto --full-harvest
 py tools/xware/ai/continuous_learn.py --project . --all-projects --skip-elevate
 # or: py tools/xware/ai/harvest_all_games.py
 py tools/xware/ai/quality_gate.py --profile <profile>
+py tools/xware/ai/immersion_surge.py --project .
+py tools/xware/ai/sis_product_epoch.py --project . --check-only
+# Immersion (props / setdress / place density — no marketing until approved):
+py tools/xware/ai/immersion_plan.py --project . --apply-generate
+py tools/xware/ai/object_analyze.py --project . --prop-vision --write-report
+py tools/xware/ai/immersion_baseline.py --project .
 ```
 
 ## Network effect (local hub ON by default)
@@ -147,7 +153,7 @@ py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
 
 ## Source of truth
 
-XWare SOT: `addons/xware` + `tools/xware`. **Version 3.5.0 (multi-engine Xhance)**  
+XWare SOT: `addons/xware` + `tools/xware`. **Version 3.6.0 (multi-engine Xhance)**  
 Marketplace: **tylercollex-gif/xware-grok-plugin**.  
 Installs: `install_to_project.ps1` · `install_to_unity.ps1` · `install_to_unreal.ps1`.  
 Hub: `~/.grok/xware_network` (all engines, privacy-safe). See `MULTI_ENGINE.md` · `GROWTH.md`.
