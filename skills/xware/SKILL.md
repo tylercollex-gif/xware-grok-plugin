@@ -56,18 +56,20 @@ After engine is known:
 ## Prefer SPAWN (own context = efficiency)
 
 ```
+# Parent asks engine BEFORE spawn when new/unknown (child cannot ask user).
+# Pass cwd = project root. Do NOT pass capability_mode (not a Grok spawn field; role default_capability_mode applies).
 spawn_subagent(
   subagent_type="xware",
   description="XWare raise / solo game",
-  capability_mode="all",
   isolation="none",
   background=true,
+  cwd="<Godot/Unity/Unreal project root>",
   prompt="""
 Project: <absolute path or NEW>
-Engine: godot | unity | unreal | ASK_IF_UNKNOWN
+Engine: godot | unity | unreal   # set by parent after ask; never ASK_IF_UNKNOWN in child
 Profile: <or auto from config>
-Task: solo_bootstrap | experience_elevate | character_engine | quality_gate | continuous_learn
-Constraints: legal only; residual honest; ask engine if new/unknown; Engine Improve Law; return report paths + pass/fail.
+Task: studio_raise | solo_bootstrap | experience_elevate | character_engine | quality_gate | continuous_learn
+Constraints: legal only; residual honest; Engine Improve Law; return report paths + pass/fail.
 """
 )
 ```
@@ -77,29 +79,31 @@ Constraints: legal only; residual honest; ask engine if new/unknown; Engine Impr
 | New 3D game / engine unknown | **Ask engine** first |
 | Known engine + XWare installed | **Use XWare** (no install pitch) |
 | Known engine + XWare missing | **Offer install once** |
-| Make / raise / elevate Godot 3D | **spawn xware** |
+| Make / raise / elevate Godot 3D | **spawn xware** · Task: `studio_raise` (S2 default) |
 | Solo indie bootstrap | Task: `solo_bootstrap` |
 | Character only | Task: `character_engine` |
 | Improve engine / learn from games | Task: `continuous_learn` |
 | One-line FAQ | Answer in-process |
 
-## Canonical CLI
+## Canonical CLI (4.0 Studio Power)
 
 ```powershell
 powershell -File tools/xware/install_to_project.ps1 -Target <game> -Profile <profile>
 # Unity/Unreal MVP: install_to_unity.ps1 / install_to_unreal.ps1
-py tools/xware/ai/experience_elevate.py --project . --from-intent --engine auto
+# S2 default elevate = studio_raise director DAG (xware_raise routes here):
+py tools/xware/ai/xware_raise.py --project .              # studio_raise
+py tools/xware/ai/xware_raise.py --project . --legacy     # old multi-stage
+py tools/xware/ai/studio_raise.py --project . --with-vlm
+# Residual constitution + place graph + nightly:
+py tools/xware/ai/s1_residual_constitution.py --project .
+py tools/xware/ai/place_graph.py --project .
+py tools/xware/ai/nightly_ci.py --project .
 # Learn from THIS project + ALL local XWare games (efficiency race):
 py tools/xware/ai/learn_probe.py --project . --engine auto --full-harvest
 py tools/xware/ai/continuous_learn.py --project . --all-projects --skip-elevate
-# or: py tools/xware/ai/harvest_all_games.py
 py tools/xware/ai/quality_gate.py --profile <profile>
-py tools/xware/ai/immersion_surge.py --project .
-py tools/xware/ai/sis_product_epoch.py --project . --check-only
-# Immersion (props / setdress / place density — no marketing until approved):
-py tools/xware/ai/immersion_plan.py --project . --apply-generate
-py tools/xware/ai/object_analyze.py --project . --prop-vision --write-report
-py tools/xware/ai/immersion_baseline.py --project .
+# 4.0 release gates under SISware:
+py tools/xware/ai/release_gate_4.py --project . --promote-missing
 ```
 
 ## Network effect (local hub ON by default)
@@ -143,6 +147,17 @@ py tools/xware/meshgen/proof_record_orbit.py --project .
 py tools/xware/ai/screen_record_analyze.py --project .
 ```
 
+
+### Beat bar (B1/B2 — required on studio_raise)
+- **P0 Look-as-exit:** Default `studio_raise` closed exit runs `material_pack` then `apply_ai_textures --all` on heroes/props; **fail-close** `surface_read` / `prop_surface_read` on video orbit; **no albedo-only PBR**. Missing `XAI_API_KEY` then honest empty embeds + Imagine jobs, never soft-PASS.
+
+```powershell
+py tools/xware/ai/material_pack.py --project .
+py tools/xware/ai/apply_ai_textures.py --project . --all
+```
+
+- **B1 Closed loop:** Default `studio_raise` includes `playtest_improve_loop` + video residual until concrete checks. Stills alone cannot PASS interactive/3D residual.
+- **B2 Editability:** Separate named roles/assets; no fused unusable shell; profile-scoped registry. Official only — no Tripo remake, no WebGPU jelly.
 **Playtest improve loop:**
 
 ```powershell
@@ -153,10 +168,12 @@ py tools/xware/ai/playtest_improve_loop.py --project . --rounds 2
 
 ## Source of truth
 
-XWare SOT: `addons/xware` + `tools/xware`. **Version 3.6.0 (multi-engine Xhance)**  
-Marketplace: **tylercollex-gif/xware-grok-plugin**.  
+XWare SOT: `addons/xware` + `tools/xware`. **Version 4.0.2 (seed + gap→studio · mesh/mocap E2E)**  
+Default elevate: **`studio_raise`** via `xware_raise.py` (use `--legacy` for old path).  
+**Cold-install seed:** `addons/xware/seed/` — global_hints (motion→form→material), profile residual floors, CI residual law. Export: `py tools/xware/ai/export_plugin_seed.py --update-seed`.  
+Marketplace: **tylercollex-gif/xware-grok-plugin** (plugin.json 4.0.2 prep; push only on Soft B).  
 Installs: `install_to_project.ps1` · `install_to_unity.ps1` · `install_to_unreal.ps1`.  
-Hub: `~/.grok/xware_network` (all engines, privacy-safe). See `MULTI_ENGINE.md` · `GROWTH.md`.
+Hub: `~/.grok/xware_network` (all engines, privacy-safe aggregates). See `MULTI_ENGINE.md` · `GROWTH.md`.
 
 ## Authorship
 

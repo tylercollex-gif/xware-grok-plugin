@@ -44,3 +44,8 @@ Requires an xAI/Grok Build platform learn probe (partnership). Local + fleet cov
 ## Platform partnership (public)
 
 See [docs/XAI_GROK_LEARN_PROBE.md](docs/XAI_GROK_LEARN_PROBE.md) and [docs/XAI_OUTREACH_SHORT.md](docs/XAI_OUTREACH_SHORT.md).
+
+## 4.0.2 product seed
+
+Cold installs use `addons/xware/seed/global_hints_seed.json` (motion/form/material) until local hub learn overrides. Export: `py tools/xware/ai/export_plugin_seed.py --update-seed`. Privacy: anonymized aggregates + direction only.
+

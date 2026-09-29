@@ -10,6 +10,16 @@ XWare continuous improvement works **across Godot, Unity, and Unreal** on your m
 - Cloud sharing is **off** unless you deliberately turn it on
 - Elevates/installs prefer **backups** so player work is not destroyed
 
+## Product seed (4.0.2)
+
+New installs include a **privacy-safe seed** under `addons/xware/seed/`:
+
+- Distilled **global_hints** priorities (motion → form → material residual routing)
+- **Profile residual floors** (strategy / sports / factory / space_arcade soft/hard keys)
+- **CI residual law** index (kitbash hard heroes, VLM hard keys, Online-avatar form bar)
+
+The seed is **not** a dump of your games. It does **not** include meshes, paths, or multi-user scrapes. After you elevate, local hub packs can override the seed on-device.
+
 ## Multi-engine hub + “learn what Grok created”
 
 Packs from Godot, Unity, and Unreal projects are validated before hub admission, then merged so the **next** elevate densifies smarter — regardless of which engine the pack came from.
