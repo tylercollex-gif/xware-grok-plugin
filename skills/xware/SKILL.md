@@ -68,7 +68,7 @@ spawn_subagent(
 Project: <absolute path or NEW>
 Engine: godot | unity | unreal   # set by parent after ask; never ASK_IF_UNKNOWN in child
 Profile: <or auto from config>
-Task: studio_raise | solo_bootstrap | experience_elevate | character_engine | quality_gate | continuous_learn
+Task: studio_raise | solo_bootstrap | character_engine | quality_gate | continuous_learn | experience_elevate (legacy)
 Constraints: legal only; residual honest; Engine Improve Law; return report paths + pass/fail.
 """
 )

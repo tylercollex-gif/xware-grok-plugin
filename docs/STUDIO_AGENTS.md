@@ -27,7 +27,7 @@ XWare maps that graph onto Grok Build:
 
 | ID | Role | Kernel / CLI | Residual keys owned | Spawn default |
 |----|------|--------------|---------------------|---------------|
-| `director` | Technical Director | `experience_elevate.py`, `studio_raise` (future) | overall PASS | always |
+| `director` | Technical Director | `xware_raise.py` (`studio_raise` default; `--legacy` = experience_elevate) | overall PASS | always |
 | `form` | Tech artist — form | `generate_models.py`, PH-first, `form_analyze.py` | geo_density, anti_kitbash, prop_silhouette_not_box, lod_companion | auto |
 | `look` | Lookdev | `imagine_raise.py`, `apply_ai_textures.py`, `material_pack.py` | surface_read, prop_surface_read, pbr_triple, wear_layer_present | auto |
 | `character` | Character lead | `character_engine.py`, hierarchy | human residual suite, FaceKit keys | if expects_humans |
@@ -62,7 +62,7 @@ spawn_subagent(
   isolation="none",
   prompt="""
 Project: <path>
-Engine: godot|unity|unreal|ASK
+Engine: godot|unity|unreal   # the Director asks the user BEFORE spawn; never pass ASK to a child
 Profile: <or auto>
 Mode: studio_raise
 Roles: director,form,look,setdress,env,physics,qa,learn,safety

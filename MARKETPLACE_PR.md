@@ -26,30 +26,27 @@ Local multi-game hub learning still works on each machine without a pin bump; **
 ```json
 {
   "name": "xware",
-  "description": "XWare Xhance 3.2 — solo indie 3D Godot. Experience Elevate, Character Engine, playtest loops, local continuous learning, Imagine look skills. Spawn subagent_type=xware.",
+  "description": "XWare Xhance 4.0.2 — Godot 4 3D raise for Grok Build: studio_raise default, residual honesty, local learning hub, ship doctor. Spawn subagent_type=xware. Free MIT.",
   "category": "development",
   "source": {
     "source": "url",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-    "sha": "REPLACE_AFTER_PUSH"
+    "sha": "<40-char commit Tyler approves>"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
   "keywords": [
     "xware",
     "xhance",
-    "godot",
-    "godot 3d",
-    "game",
-    "gamedev",
-    "indie",
-    "3d game",
-    "graphics",
-    "animation",
-    "continuous-learning",
-    "xai"
+    "xware xhance",
+    "xware godot",
+    "xware studio_raise",
+    "subagent_type=xware"
   ]
 }
 ```
+
+Keywords stay brand-scoped (marketplace CONTRIBUTING: generic terms like `godot`, `game`, `3d` mis-fire the plugin CTA and get pushed back).
+Once the entry is merged, the marketplace's daily bot bumps the pin when `.grok-plugin/plugin.json` `version` changes, so a pushed version bump = a release. Push only with Tyler's OK.
 
 ## Install (users)
 

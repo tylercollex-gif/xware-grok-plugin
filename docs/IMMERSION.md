@@ -22,8 +22,9 @@ py tools/xware/ai/object_analyze.py --project . --prop-vision --write-report
 # Presentation residual apply recipe (Godot runtime consumes)
 py tools/xware/ai/presentation_pass.py --project . --apply
 
-# Full elevate (World Object → Immersion → Look → Presentation --apply)
-py tools/xware/ai/experience_elevate.py --project . --from-intent --immersion-generate
+# Full raise (studio_raise default)
+py tools/xware/ai/xware_raise.py --project .
+# legacy, only when asked: py tools/xware/ai/experience_elevate.py --project . --from-intent --immersion-generate
 ```
 
 ## Godot runtime

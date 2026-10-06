@@ -24,7 +24,7 @@ metadata:
 3. **Runtime check** — tools + runtime for that engine (`addons/xware` / `Assets/XWare` / `Content/XWare`).
 4. **Install if missing** — official install scripts only (never rewrite tools).
 5. **Look kernel** — load `game-asset-core` (+ specialists) for any Imagine plates; edit-chain; no cousin regen.
-6. **Elevate** — `design_intent` → `experience_elevate --from-intent --engine <engine>` (detail 10, playtest when Godot).
+6. **Elevate** — `design_intent` → `xware_raise.py` (`studio_raise`, playtest + video residual when Godot). `experience_elevate` is legacy, only when asked.
 7. **Class-route weak** — `auto_weak_elevate` (form/material/light/motion) when Godot tools apply.
 8. **Engine Improve Law** — hub pack **always** after multi-step work:
    `continuous_learn.py --project . --all-projects --skip-elevate` (learns all local games Grok made)

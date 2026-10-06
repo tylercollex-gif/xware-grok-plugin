@@ -26,14 +26,13 @@ Confirm: `/config-agents` → **xware** ON
 spawn_subagent(
   subagent_type="xware",
   description="Raise my 3D game",
-  capability_mode="all",
   isolation="none",
   prompt="""
 Project: <absolute path or NEW>
-Engine: godot | unity | unreal | ASK_IF_UNKNOWN
+Engine: godot | unity | unreal   # the parent asks the user first when new/unknown; the child can't ask
 Profile: open_world_rpg_slice | sports | factory_sim | space_arcade | …
-Task: solo_bootstrap | experience_elevate | continuous_learn | quality_gate
-Constraints: legal only; residual honest; ask engine if new/unknown; hub pack after elevate.
+Task: studio_raise | solo_bootstrap | continuous_learn | quality_gate | experience_elevate (legacy)
+Constraints: legal only; residual honest; hub pack after the raise.
 """
 )
 ```
@@ -54,7 +53,7 @@ powershell -File tools\xware\install_to_unity.ps1 -Target <UnityProject>
 # Unreal 5
 powershell -File tools\xware\install_to_unreal.ps1 -Target <UnrealProject>
 
-py tools/xware/ai/experience_elevate.py --project <path> --from-intent --engine auto
+py tools/xware/ai/xware_raise.py --project <path>        # studio_raise (default); --legacy = old experience_elevate
 py tools/xware/ai/continuous_learn.py --project <path>
 
 # Immersion (props / setdress / place density)
@@ -101,7 +100,7 @@ Captions: multi-engine elevate on Grok Build.
 | Creator | tylercollex-gif |
 | License | MIT — free use with attribution |
 | Marks | XWare / Xhance reserved ([TRADEMARK.md](TRADEMARK.md)) |
-| Plugin | [`plugin.json`](plugin.json) **3.4.0** |
+| Plugin | [`plugin.json`](plugin.json) **4.0.2** |
 
 ## Keywords
 

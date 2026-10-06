@@ -17,9 +17,10 @@ metadata:
 $proj = "<Godot project root>"
 # tools from game or Helix SOT — do not rewrite these scripts
 py tools/xware/ai/design_intent.py --project $proj
-py tools/xware/ai/experience_elevate.py --project $proj --from-intent --quality ultra --detail 10
+py tools/xware/ai/xware_raise.py --project $proj   # studio_raise (default)
+# legacy, only when asked: py tools/xware/ai/experience_elevate.py --project $proj --from-intent --quality ultra --detail 10
 py tools/xware/ai/continuous_learn.py --project $proj --skip-elevate
 py tools/xware/ai/quality_gate.py --project $proj
 ```
 
-Spawn `subagent_type="xware"` with Task `experience_elevate` when the loop is multi-file.
+Spawn `subagent_type="xware"` with Task `studio_raise` when the loop is multi-file (Task `experience_elevate` = legacy, only when asked).
