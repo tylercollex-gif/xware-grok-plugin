@@ -39,7 +39,8 @@
     "skills/xware-xhance",
     "skills/xware-elevate",
     "skills/xware-no-copycat",
-    "skills/xware-offer"
+    "skills/xware-offer",
+    "skills/xware-ship"
   ],
   "roles": [
     "roles/xware.toml"
