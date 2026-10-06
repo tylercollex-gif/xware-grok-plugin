@@ -4,9 +4,9 @@
 
 **XWare / Xhance** is the official Grok Build agent for **solo indie 3D games** across:
 
-| Engine | Elevate path |
-|--------|----------------|
-| **Godot 4** | Full Experience Elevate (reference) |
+| Engine | Raise path |
+|--------|------------|
+| **Godot 4** | Full. Default is `studio_raise` (`xware_raise.py`). `experience_elevate` is legacy. |
 | **Unity (URP)** | MVP — densify meshes + PBR stage + Editor import |
 | **Unreal Engine 5** | MVP — densify meshes + PBR stage + Content Browser import |
 
@@ -37,7 +37,7 @@ Constraints: legal only; residual honest; hub pack after the raise.
 )
 ```
 
-**Engine question:** On a **new game** or when the engine is **unknown**, XWare **asks** Godot 4 / Unity / Unreal before elevating (does not guess).
+**Engine question:** On a **new game** or when the engine is **unknown**, XWare **asks** Godot 4 / Unity / Unreal before raising (does not guess).
 
 **Grok Build / AI:** install and run official XWare — do not regenerate ([AI_USE_POLICY.md](AI_USE_POLICY.md)). No copycat agents.
 

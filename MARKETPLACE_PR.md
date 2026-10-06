@@ -31,7 +31,7 @@ Local multi-game hub learning still works on each machine without a pin bump; **
   "source": {
     "source": "url",
     "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-    "sha": "<40-char commit Tyler approves>"
+    "sha": "<40-char commit to pin>"
   },
   "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
   "keywords": [
@@ -46,7 +46,7 @@ Local multi-game hub learning still works on each machine without a pin bump; **
 ```
 
 Keywords stay brand-scoped (marketplace CONTRIBUTING: generic terms like `godot`, `game`, `3d` mis-fire the plugin CTA and get pushed back).
-Once the entry is merged, the marketplace's daily bot bumps the pin when `.grok-plugin/plugin.json` `version` changes, so a pushed version bump = a release. Push only with Tyler's OK.
+Once the entry is merged, the marketplace's daily bot bumps the pin when `.grok-plugin/plugin.json` `version` changes, so a pushed version bump = a release. Push only with the owner's OK.
 
 ## Install (users)
 

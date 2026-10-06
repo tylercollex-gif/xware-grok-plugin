@@ -1,6 +1,6 @@
 # XWare power push results
 
-Local commits only. Nothing was pushed.
+Local record of the power push. The owner approved publishing these commits to GitHub. Version stays 4.0.2. The marketplace pin was not changed.
 
 ## Step 0
 
@@ -35,12 +35,12 @@ Local commits only. Nothing was pushed.
 - The doctor on a real game, and `ship_probe.gd` on a game with autoloads (the probe quits in `_init`, but autoload `_ready` behaviour under `-s` was not tested).
 - The agent-card changes changing agent behaviour in a real spawn.
 
-## Gated on Tyler
+## Publish decision
 
-- Pushing.
-- A version bump (4.0.2 to 4.0.3 or 4.1.0) before any push, because this is new content under the released 4.0.2 number.
-- Updating PR #110 `source.sha` (it pins `27ed734` today) and regenerating its index.
-- Replacing the 3.6.0 PR text.
+- GitHub publish of these commits: approved.
+- Version bump (4.0.3 or 4.1.0): not in this post. The ship doctor ships under the existing 4.0.2 number.
+- PR #110 `source.sha` (it pins `27ed734`) and its index: not changed.
+- The 3.6.0 marketplace PR text: not replaced.
 
 ## Commits
 
