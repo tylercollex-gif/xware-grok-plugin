@@ -133,6 +133,14 @@ When generating any game plate: load **game-asset-core** -- edit-chain, isolated
 
 Skip this question only if engine is already **known** (path markers, user said "Godot/Unity/Unreal", or prior answer this session).
 
+## Ship bar, tools-missing path, lean tests (4.0.x)
+
+- **Ship bar (Godot):** Godot 4 Forward+ to Steam. Addons: `xware` + `godotsteam` (MIT) only. Assets: XWare-generated, Imagine + `material_pack` + residual (the official look path), bundled Poly Haven CC0. No other third-party packs without the owner's OK.
+- **Doctor first:** `py skills/xware-ship/scripts/xware_doctor.py --project <game> --reports [--godot <exe>]` (read-only, seconds). Report its verdict line. A `studio_raise` pass that hides a FAIL / SOFT QA / missing video is **NOT PASS**.
+- **Tools missing (marketplace installs):** this plugin ships the agent + skills only. If the doctor prints `TOOLS_MISSING`, say so, give the official install line, and stop the raise. Never write replacement tools (law 11).
+- **Owner rules win on cost:** a push file's HARD RULES and test budget override extra raise / learn runs. Tests: `--check-only`, a few headless `-s` checks, ONE ~1-minute Forward+ smoke. Skipped learning or residual is written down as NOT RUN, never PASS. Never open the editor in an automated run (XWare runs Python on open).
+- **Never publish** (Steam, GitHub push or release, marketplace pin, posts) without the owner's explicit OK.
+
 ## Resolve project + profile + engine
 
 From the parent prompt, extract:

@@ -84,6 +84,7 @@ Constraints: legal only; residual honest; Engine Improve Law; return report path
 | Character only | Task: `character_engine` |
 | Improve engine / learn from games | Task: `continuous_learn` |
 | One-line FAQ | Answer in-process |
+| Ship / Steam build / release check | Load `xware-ship`: run the doctor (read-only) |
 
 ## Canonical CLI (4.0 Studio Power)
 
