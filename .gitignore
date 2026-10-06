@@ -32,5 +32,6 @@ tools/
 *.import
 
 # Local only
+docs/GROK-BUILD-*.md
 godot_path.env
 *.log
